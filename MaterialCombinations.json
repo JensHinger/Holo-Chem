@@ -1,3 +1,62 @@
 [
-  {}
+  {
+    "result": "Pflanze",
+    "base" : ["Erde", "Wasser"]
+  },
+  {
+    "result": "Feuer",
+    "base" : ["Stein", "Stein"]
+  },
+  {
+    "result": "Dampf",
+    "base" : ["Feuer", "Wasser"]
+  },
+  {
+    "result": "Metal",
+    "base" : ["Feuer", "Stein"]
+  },
+  {
+    "result": "Lava",
+    "base" : ["Feuer", "Erde"]
+  },
+  {
+    "result": "Energie",
+    "base" : ["Dampf", "Metal"]
+  },
+  {
+    "result": "Plasma",
+    "base" : ["Dampf", "Feuer"]
+  },
+  {
+    "result": "Sonne",
+    "base" : ["Feuer", "Feuer"]
+  },
+  {
+    "result": "Holz",
+    "base" : ["Sonne", "Pflanze"]
+  },
+  {
+    "result": "Werkzeug",
+    "base" : ["Holz", "Metal"]
+  },
+  {
+    "result": "Haus",
+    "base" : ["Holz", "Werkzeug"]
+  },
+  {
+    "result": "Flugzeug",
+    "base" : ["Luft", "Holz"]
+  },
+  {
+    "result": "Planet",
+    "base" : ["Luft", "Erde"]
+  },
+  {
+    "result": "Öl",
+    "base" : ["Energie", "Erde"]
+  },
+  {
+    "result": "Auto",
+    "base" : ["Öl", "Metal"]
+  }
 ]
