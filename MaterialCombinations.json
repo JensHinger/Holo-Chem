@@ -58,5 +58,45 @@
   {
     "result": "Auto",
     "base" : ["Öl", "Metal"]
+  },
+  {
+    "result": "Sonnensystem",
+    "base" : ["Sonne", "Planet"]
+  },
+  {
+    "result": "Raumschiff",
+    "base" : ["Sonnensystem", "Flugzeug"]
+  },
+  {
+    "result": "Bagger",
+    "base" : ["Öl", "Werkzeug"]
+  },
+  {
+    "result": "Wasserstoff",
+    "base" : ["Wasser", "Energie"]
+  },
+  {
+    "result": "Sand",
+    "base" : ["Erde", "Werkzeug"]
+  },
+  {
+    "result": "Glas",
+    "base" : ["Sand", "Feuer"]
+  },
+  {
+    "result": "Mikroskop",
+    "base" : ["Glas", "Werkzeug"]
+  },
+  {
+    "result": "Zellen",
+    "base" : ["Mikroskop", "Pflanze"]
+  },
+  {
+    "result": "Atome",
+    "base" : ["Mikroskop", "Zellen"]
+  },
+  {
+    "result": "Windkraft",
+    "base" : ["Luft", "Energie"]
   }
 ]
