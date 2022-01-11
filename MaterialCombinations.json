@@ -1,102 +1,102 @@
 [
   {
-    "result": "Pflanze",
-    "base" : ["Erde", "Wasser"]
+    "result": "Plant",
+    "base" : ["Earth", "Water"]
   },
   {
-    "result": "Feuer",
-    "base" : ["Stein", "Stein"]
+    "result": "Fire",
+    "base" : ["Stone", "Stone"]
   },
   {
-    "result": "Dampf",
-    "base" : ["Feuer", "Wasser"]
+    "result": "Vapor",
+    "base" : ["Fire", "Water"]
   },
   {
     "result": "Metal",
-    "base" : ["Feuer", "Stein"]
+    "base" : ["Fire", "Stone"]
   },
   {
     "result": "Lava",
-    "base" : ["Feuer", "Erde"]
+    "base" : ["Fire", "Earth"]
   },
   {
-    "result": "Energie",
-    "base" : ["Dampf", "Metal"]
+    "result": "Energy",
+    "base" : ["Vapor", "Metal"]
   },
   {
     "result": "Plasma",
-    "base" : ["Dampf", "Feuer"]
+    "base" : ["Vapor", "Fire"]
   },
   {
-    "result": "Sonne",
-    "base" : ["Feuer", "Feuer"]
+    "result": "Sun",
+    "base" : ["Fire", "Fire"]
   },
   {
-    "result": "Holz",
-    "base" : ["Sonne", "Pflanze"]
+    "result": "Wood",
+    "base" : ["Sun", "Plant"]
   },
   {
-    "result": "Werkzeug",
-    "base" : ["Holz", "Metal"]
+    "result": "Tool",
+    "base" : ["Wood", "Metal"]
   },
   {
-    "result": "Haus",
-    "base" : ["Holz", "Werkzeug"]
+    "result": "House",
+    "base" : ["Wood", "Tool"]
   },
   {
-    "result": "Flugzeug",
-    "base" : ["Luft", "Holz"]
+    "result": "Plane",
+    "base" : ["Luft", "Wood"]
   },
   {
     "result": "Planet",
-    "base" : ["Luft", "Erde"]
+    "base" : ["Luft", "Earth"]
   },
   {
-    "result": "Öl",
-    "base" : ["Energie", "Erde"]
+    "result": "Oil",
+    "base" : ["Energy", "Earth"]
   },
   {
     "result": "Auto",
-    "base" : ["Öl", "Metal"]
+    "base" : ["Oil", "Metal"]
   },
   {
-    "result": "Sonnensystem",
-    "base" : ["Sonne", "Planet"]
+    "result": "Sunsystem",
+    "base" : ["Sun", "Planet"]
   },
   {
-    "result": "Raumschiff",
-    "base" : ["Sonnensystem", "Flugzeug"]
+    "result": "Spacecraft",
+    "base" : ["Sunsystem", "Plane"]
   },
   {
-    "result": "Bagger",
-    "base" : ["Öl", "Werkzeug"]
+    "result": "Digger",
+    "base" : ["Oil", "Tool"]
   },
   {
-    "result": "Wasserstoff",
-    "base" : ["Wasser", "Energie"]
+    "result": "Hydrogen",
+    "base" : ["Water", "Energy"]
   },
   {
     "result": "Sand",
-    "base" : ["Erde", "Werkzeug"]
+    "base" : ["Earth", "Tool"]
   },
   {
     "result": "Glas",
-    "base" : ["Sand", "Feuer"]
+    "base" : ["Sand", "Fire"]
   },
   {
-    "result": "Mikroskop",
-    "base" : ["Glas", "Werkzeug"]
+    "result": "Microscope",
+    "base" : ["Glas", "Tool"]
   },
   {
-    "result": "Zellen",
-    "base" : ["Mikroskop", "Pflanze"]
+    "result": "Cells",
+    "base" : ["Microscope", "Plant"]
   },
   {
-    "result": "Atome",
-    "base" : ["Mikroskop", "Zellen"]
+    "result": "Atoms",
+    "base" : ["Microscope", "Cells"]
   },
   {
-    "result": "Windkraft",
-    "base" : ["Luft", "Energie"]
+    "result": "Windturbine",
+    "base" : ["Luft", "Energy"]
   }
 ]
