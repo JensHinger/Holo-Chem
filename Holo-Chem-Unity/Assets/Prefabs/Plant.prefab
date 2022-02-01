@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 2421914448421411145}
   - component: {fileID: 2421914448421411150}
   - component: {fileID: 2421914448421411151}
-  - component: {fileID: -5966171782703664351}
   m_Layer: 0
   m_Name: Plant
   m_TagString: Untagged
@@ -190,16 +189,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
---- !u!114 &-5966171782703664351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3268829971329207833}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d097d497939b48438221214b0c144b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnpoint: {fileID: 4094263609751581229, guid: 87a3de09e1e170644a6f74ca4f1b02a7, type: 3}
