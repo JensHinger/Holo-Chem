@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1061793195028489693}
   m_Layer: 0
-  m_Name: regal
+  m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
