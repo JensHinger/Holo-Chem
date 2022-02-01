@@ -33,4 +33,5 @@ public class SpawnManager : MonoBehaviour
     {
          Object.Instantiate(toSpawn, gameObject.transform.position, toSpawn.transform.rotation);
     }
+
 }
