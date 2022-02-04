@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   recipes:
-  - {fileID: 11400000, guid: 38f2d95d20cda844a8573291153bcfb9, type: 2}
+  - {fileID: 11400000, guid: 0430ccb674869ea498bcf00b657d47ba, type: 2}
 --- !u!4 &142164361
 Transform:
   m_ObjectHideFlags: 0
