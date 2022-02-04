@@ -6,10 +6,16 @@ public class SpawnManager : MonoBehaviour
 {
 
     public GameObject toSpawn;
+    //public Vector3 gizmoLoc;
+
+    [SerializeField] private float sphereOffset = 0.2f;
+    [SerializeField] private float sphereSize = 0.4f;
 
     // Start is called before the first frame update
     void Start()
     {
+        // gizmoLoc = gameObject.transform.position;
+        // gizmoLoc = new Vector3(gizmoLoc.x, gizmoLoc.y + sphereOffset, gizmoLoc.z);
         SpawnObject();
     }
 
@@ -18,14 +24,24 @@ public class SpawnManager : MonoBehaviour
     {
         BoxCollider box = toSpawn.GetComponent<BoxCollider>();
 
-        var spawn = gameObject.transform.position;
-        var hitColliders = Physics.OverlapSphere(spawn, box.size.x /4); 
+        Vector3 spawn = gameObject.transform.position;
+        spawn = new Vector3(spawn.x, spawn.y+sphereOffset, spawn.z);
+
+        var hitColliders = Physics.OverlapSphere(spawn, sphereSize);
 
         if(hitColliders.Length == 2)
         {
             SpawnObject();
         }
     }
+
+    /*
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(gizmoLoc, sphereSize);
+    }
+    */
 
     void SpawnObject()
     {
