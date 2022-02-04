@@ -17,7 +17,6 @@ GameObject:
   - component: {fileID: -7444658159011474653}
   - component: {fileID: -1298422357535926166}
   - component: {fileID: 1879877623731761651}
-  - component: {fileID: 1659383768540890690}
   m_Layer: 0
   m_Name: Planet
   m_TagString: Material
@@ -202,19 +201,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36bbbea2bdd89f7458492f495b97ef96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!111 &1659383768540890690
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1611019806562790286}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: e392979bde6979240b2893cb2d9105c1, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: e392979bde6979240b2893cb2d9105c1, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
