@@ -45,7 +45,7 @@ public class SpawnManager : MonoBehaviour
 
     void SpawnObject()
     {
-         Object.Instantiate(toSpawn, gameObject.transform.position, toSpawn.transform.rotation);
+        Object.Instantiate(toSpawn, gameObject.transform.position, toSpawn.transform.rotation);
     }
 
 }
