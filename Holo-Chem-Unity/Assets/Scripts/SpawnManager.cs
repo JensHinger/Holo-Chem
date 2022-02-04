@@ -21,8 +21,6 @@ public class SpawnManager : MonoBehaviour
         var spawn = gameObject.transform.position;
         var hitColliders = Physics.OverlapSphere(spawn, box.size.x /4); 
 
-        Debug.Log(hitColliders.Length + " size: " + box.size.x);
-
         if(hitColliders.Length == 2)
         {
             SpawnObject();
