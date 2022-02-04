@@ -874,7 +874,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c62f1ad9a1f21524e8031bf82fb02b3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toSpawn: {fileID: 4244900910931547881, guid: 6ac27c186a87e5244b86f6a348bf344f, type: 3}
+  toSpawn: {fileID: 4004481706063428666, guid: 944f3b8dc70a028478365484f1f9462c, type: 3}
   sphereOffset: 0.2
   sphereSize: 0.4
 --- !u!1 &5026492555582609795
@@ -975,7 +975,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c62f1ad9a1f21524e8031bf82fb02b3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toSpawn: {fileID: 4244900910931547881, guid: 6ac27c186a87e5244b86f6a348bf344f, type: 3}
+  toSpawn: {fileID: 4415519799432980906, guid: 3a9fd01b67d6c4f4391a3ad455a48cee, type: 3}
   sphereOffset: 0.2
   sphereSize: 0.4
 --- !u!1 &5347726131559579152
@@ -1258,7 +1258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c62f1ad9a1f21524e8031bf82fb02b3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toSpawn: {fileID: 4244900910931547881, guid: 6ac27c186a87e5244b86f6a348bf344f, type: 3}
+  toSpawn: {fileID: 3855583884114067963, guid: 076e2c66c165b1f408cde365e917e7f3, type: 3}
   sphereOffset: 0.2
   sphereSize: 0.4
 --- !u!1 &7160622148659439106
