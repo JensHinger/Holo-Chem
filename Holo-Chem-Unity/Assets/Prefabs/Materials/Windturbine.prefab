@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 3054074398248462105}
   m_Layer: 0
   m_Name: Windturbine
-  m_TagString: Untagged
+  m_TagString: Material
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
