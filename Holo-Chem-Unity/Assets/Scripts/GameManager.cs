@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private ScriptableObject[] recipes;
     public ParticleSystem combinationEffect;
+    public ParticleSystem badCombinationEffect;
 
     void OnEnable()
     {
@@ -22,9 +23,19 @@ public class GameManager : MonoBehaviour
 
     void HandleCombination(GameObject first, GameObject second)
     {
+        // To check if combination failed
+        bool fail_combination = true;
+
         // Get the name for both instantiated gameobjects
         string first_name = first.name.Remove(first.name.Length - 7);
         string second_name = second.name.Remove(second.name.Length - 7);
+
+        Debug.Log("Collision between: " + first_name + " and " + second_name);
+
+        // Calculate the Position of the collision
+        Vector3 first_position = first.transform.position;
+        Vector3 second_position = second.transform.position;
+        Vector3 collision_position = new Vector3((first_position.x + second_position.x) / 2, (first_position.y + second_position.y) / 2, (first_position.z + second_position.z) / 2);
 
         // Iterate over every recipe
         foreach (CombinationRecipe recipe in recipes)
@@ -33,10 +44,6 @@ public class GameManager : MonoBehaviour
             // Check the names against each recipe
             if (recipe.recipe[0].name == first_name && recipe.recipe[1].name == second_name || recipe.recipe[1].name == first_name && recipe.recipe[0].name == second_name)
             {
-                // Calculate the Position of the collision
-                Vector3 first_position = first.transform.position;
-                Vector3 second_position = second.transform.position;
-                Vector3 collision_position = new Vector3((first_position.x+second_position.x)/2, (first_position.y+second_position.y)/2, (first_position.z+second_position.z)/2);
 
                 // Destroy the gameobjects which should be consumend
                 Destroy(first);
@@ -45,13 +52,30 @@ public class GameManager : MonoBehaviour
                 // Instantiate and Play combinationEffect
                 Instantiate(combinationEffect, collision_position, combinationEffect.transform.rotation);
                 combinationEffect.Play();
-
+                
                 // Instantiate the result prefab
                 Instantiate(recipe.result, collision_position, recipe.result.transform.rotation);
 
                 // ToDo: Unlock spawnpoint for result
+
+                // Set the combination fail on true
+                fail_combination = false;
+
+                // Stop foreach loop when combination is found
+                break;
             }
         }
 
+        if (fail_combination) 
+        { 
+            // Destroy the gameobjects which should be consumend
+            Destroy(first);
+            Destroy(second);
+
+            // Instantiate and Play combinationEffect
+            Instantiate(badCombinationEffect, collision_position, combinationEffect.transform.rotation);
+            combinationEffect.Play();
+        }
+        
     }
 }

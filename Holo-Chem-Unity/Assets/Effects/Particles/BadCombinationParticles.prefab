@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8666432253138913347}
   - component: {fileID: 6298771034364326233}
   m_Layer: 0
-  m_Name: CombinationParticles
+  m_Name: BadCombinationParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4843,7 +4843,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -2003699360101198595, guid: 294423c044aafbf4682e232c0746dac8, type: 3}
+  - {fileID: 2100000, guid: 3146e340dffda3241b045db564d3162b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
