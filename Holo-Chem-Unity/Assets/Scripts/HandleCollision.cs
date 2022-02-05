@@ -7,6 +7,22 @@ public class HandleCollision : MonoBehaviour
     public delegate void OnCollision(GameObject first, GameObject second);
     public static event OnCollision OnMaterialCollision;
 
+    private float deletionDistance = 10f;
+    private Vector3 startLocation;
+
+    private void Start()
+    {
+        startLocation = gameObject.transform.position;
+    }
+
+    private void Update()
+    {
+        if (Vector3.Distance(startLocation, gameObject.transform.position) > deletionDistance)
+        {
+            Destroy(gameObject);
+        }
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
         // Check both GameObjects for the "Material" tag

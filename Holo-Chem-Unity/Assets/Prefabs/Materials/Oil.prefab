@@ -202,6 +202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36bbbea2bdd89f7458492f495b97ef96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deletionDistance: 10
 --- !u!111 &-2061930278308545507
 Animation:
   m_ObjectHideFlags: 0
