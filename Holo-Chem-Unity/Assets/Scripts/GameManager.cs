@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
 
     [SerializeField] private ScriptableObject[] recipes;
-
+    public ParticleSystem combinationEffect;
 
     void OnEnable()
     {
@@ -42,10 +42,14 @@ public class GameManager : MonoBehaviour
                 Destroy(first);
                 Destroy(second);
 
+                // Instantiate and Play combinationEffect
+                Instantiate(combinationEffect, collision_position, combinationEffect.transform.rotation);
+                combinationEffect.Play();
+
                 // Instantiate the result prefab
                 Instantiate(recipe.result, collision_position, recipe.result.transform.rotation);
-            
-                // ToDo: Transform Particle effect, Unlock spawnpoint for result
+
+                // ToDo: Unlock spawnpoint for result
             }
         }
 
