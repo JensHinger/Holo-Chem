@@ -6,6 +6,7 @@ public class SpawnManager : MonoBehaviour
 {
 
     public GameObject toSpawn;
+    public bool spawnActivated = false;
     //public Vector3 gizmoLoc;
 
     [SerializeField] private float sphereOffset = 0.2f;
@@ -45,7 +46,10 @@ public class SpawnManager : MonoBehaviour
 
     void SpawnObject()
     {
-        Object.Instantiate(toSpawn, gameObject.transform.position, toSpawn.transform.rotation);
+        if (spawnActivated)
+        {
+            Object.Instantiate(toSpawn, gameObject.transform.position, toSpawn.transform.rotation);
+        }
     }
 
 }

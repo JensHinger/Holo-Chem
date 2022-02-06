@@ -9,6 +9,13 @@ public class GameManager : MonoBehaviour
     public ParticleSystem combinationEffect;
     public ParticleSystem badCombinationEffect;
 
+    private GameObject[] spawnPoints;
+
+    private void Start()
+    {
+        spawnPoints = GameObject.FindGameObjectsWithTag("Respawn");
+    }
+
     void OnEnable()
     {
         // Subscribe to Event
@@ -57,6 +64,18 @@ public class GameManager : MonoBehaviour
                 Instantiate(recipe.result, collision_position, recipe.result.transform.rotation);
 
                 // ToDo: Unlock spawnpoint for result
+                foreach(GameObject spawnpoint in spawnPoints)
+                {
+                    SpawnManager spawnScript = spawnpoint.GetComponent<SpawnManager>();
+                    string spawnObjectName = spawnScript.toSpawn.name;
+
+                    Debug.Log("Activate Spawn: " + spawnObjectName);
+
+                    if (spawnObjectName == recipe.result.name)
+                    {
+                        spawnScript.spawnActivated = true;
+                    }
+                }
 
                 // Set the combination fail on true
                 fail_combination = false;
