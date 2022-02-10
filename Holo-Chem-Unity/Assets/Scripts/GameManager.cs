@@ -39,7 +39,6 @@ public class GameManager : MonoBehaviour
         string first_name = first.name.Remove(first.name.Length - 7);
         string second_name = second.name.Remove(second.name.Length - 7);
 
-        Debug.Log("Collision between: " + first_name + " and " + second_name);
 
         // Calculate the Position of the collision
         Vector3 first_position = first.transform.position;
@@ -70,8 +69,6 @@ public class GameManager : MonoBehaviour
                 {
                     SpawnManager spawnScript = spawnpoint.GetComponent<SpawnManager>();
                     string spawnObjectName = spawnScript.toSpawn.name;
-
-                    Debug.Log("Activate Spawn: " + spawnObjectName);
 
                     if (spawnObjectName == recipe.result.name)
                     {
