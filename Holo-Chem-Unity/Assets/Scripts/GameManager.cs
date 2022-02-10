@@ -10,10 +10,12 @@ public class GameManager : MonoBehaviour
     public ParticleSystem badCombinationEffect;
 
     private GameObject[] spawnPoints;
+    private AudioSource audio;
 
     private void Start()
     {
         spawnPoints = GameObject.FindGameObjectsWithTag("Respawn");
+        audio = gameObject.GetComponent<AudioSource>();
     }
 
     void OnEnable()
@@ -57,6 +59,7 @@ public class GameManager : MonoBehaviour
                 Destroy(second);
 
                 // Instantiate and Play combinationEffect
+                audio.Play();
                 Instantiate(combinationEffect, collision_position, combinationEffect.transform.rotation);
                 
                 // Instantiate the result prefab
