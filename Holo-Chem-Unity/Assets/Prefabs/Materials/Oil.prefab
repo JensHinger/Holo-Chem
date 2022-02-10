@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 2916615086439964910}
   - component: {fileID: -4527845815572463051}
   - component: {fileID: -2061930278308545507}
+  - component: {fileID: 7719564682791992834}
   m_Layer: 0
   m_Name: Oil
   m_TagString: Material
@@ -151,7 +152,19 @@ MonoBehaviour:
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7719564682791992834}
+        m_TargetAssemblyTypeName: SetNewParent, Assembly-CSharp
+        m_MethodName: SetParent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onManipulationEnded:
     m_PersistentCalls:
       m_Calls: []
@@ -202,7 +215,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36bbbea2bdd89f7458492f495b97ef96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deletionDistance: 10
 --- !u!111 &-2061930278308545507
 Animation:
   m_ObjectHideFlags: 0
@@ -220,3 +232,15 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &7719564682791992834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8858234560212260287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9052c274da2591d4385f1b4d70af1b7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

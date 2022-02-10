@@ -15,8 +15,8 @@ public class SpawnManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // gizmoLoc = gameObject.transform.position;
-        // gizmoLoc = new Vector3(gizmoLoc.x, gizmoLoc.y + sphereOffset, gizmoLoc.z);
+        gizmoLoc = gameObject.transform.position;
+        gizmoLoc = new Vector3(gizmoLoc.x, gizmoLoc.y + sphereOffset, gizmoLoc.z);
         SpawnObject();
     }
 

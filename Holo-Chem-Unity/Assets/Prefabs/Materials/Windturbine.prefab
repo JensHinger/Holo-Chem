@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 7489725817581410053}
   - component: {fileID: 4676342241577630623}
   - component: {fileID: 3054074398248462105}
+  - component: {fileID: -1495148472714689862}
   m_Layer: 0
   m_Name: Windturbine
   m_TagString: Material
@@ -164,7 +165,19 @@ MonoBehaviour:
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -1495148472714689862}
+        m_TargetAssemblyTypeName: SetNewParent, Assembly-CSharp
+        m_MethodName: SetParent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onManipulationEnded:
     m_PersistentCalls:
       m_Calls: []
@@ -203,6 +216,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 23.79251, y: 35.057144, z: 23.79251}
   m_Center: {x: 0, y: 16.003853, z: 0}
+--- !u!114 &-1495148472714689862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4415519799432980906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9052c274da2591d4385f1b4d70af1b7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5249669245242570161
 GameObject:
   m_ObjectHideFlags: 0
