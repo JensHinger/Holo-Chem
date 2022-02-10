@@ -5,18 +5,21 @@ using UnityEngine;
 public class RotateShelves : MonoBehaviour
 {
     public float timeToRotate = 2f;
+    public GameObject toRotate;
+
     private bool rotate = false;
 
     private float blockTimer;
     private bool blockRotate = false;
+
     IEnumerator Rotate()
     {
-        Quaternion fromAngle = transform.rotation;
-        Quaternion toAngle = Quaternion.Euler(transform.eulerAngles + Vector3.up * 180);
+        Quaternion fromAngle = toRotate.transform.rotation;
+        Quaternion toAngle = Quaternion.Euler(toRotate.transform.eulerAngles + Vector3.up * 180);
 
         for(var t = 0f; t < 1; t+= Time.deltaTime / timeToRotate)
         {
-            transform.rotation = Quaternion.Slerp(fromAngle, toAngle, t);
+            toRotate.transform.rotation = Quaternion.Slerp(fromAngle, toAngle, t);
             yield return null;
         }
 
