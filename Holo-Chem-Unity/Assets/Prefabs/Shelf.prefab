@@ -379,7 +379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toSpawn: {fileID: 7188837116034520689, guid: f831af65752f10041af5d9736feaa25e, type: 3}
-  spawnActivated: 0
+  spawnActivated: 1
   gizmoLoc: {x: 0, y: 0, z: 0}
   sphereOffset: 0.2
   sphereSize: 0.3
