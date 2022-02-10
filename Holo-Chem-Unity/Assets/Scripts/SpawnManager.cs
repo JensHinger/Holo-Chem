@@ -7,7 +7,7 @@ public class SpawnManager : MonoBehaviour
 
     public GameObject toSpawn;
     public bool spawnActivated = false;
-    //public Vector3 gizmoLoc;
+    public Vector3 gizmoLoc;
 
     [SerializeField] private float sphereOffset = 0.2f;
     [SerializeField] private float sphereSize = 0.4f;
@@ -36,19 +36,17 @@ public class SpawnManager : MonoBehaviour
         }
     }
 
-    /*
-    private void OnDrawGizmos()
+    private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(gizmoLoc, sphereSize);
     }
-    */
 
     void SpawnObject()
     {
         if (spawnActivated)
         {
-            Object.Instantiate(toSpawn, gameObject.transform.position, toSpawn.transform.rotation);
+            Object.Instantiate(toSpawn, gameObject.transform.position, toSpawn.transform.rotation, transform);
         }
     }
 

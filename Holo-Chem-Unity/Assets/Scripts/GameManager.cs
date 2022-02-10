@@ -58,7 +58,6 @@ public class GameManager : MonoBehaviour
 
                 // Instantiate and Play combinationEffect
                 Instantiate(combinationEffect, collision_position, combinationEffect.transform.rotation);
-                combinationEffect.Play();
                 
                 // Instantiate the result prefab
                 Instantiate(recipe.result, collision_position, recipe.result.transform.rotation);
@@ -92,8 +91,7 @@ public class GameManager : MonoBehaviour
             Destroy(second);
 
             // Instantiate and Play combinationEffect
-            Instantiate(badCombinationEffect, collision_position, combinationEffect.transform.rotation);
-            combinationEffect.Play();
+            Instantiate(badCombinationEffect, collision_position, badCombinationEffect.transform.rotation);
         }
         
     }
