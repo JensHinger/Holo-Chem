@@ -140,10 +140,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c141fe6e5799a24285e57badfd1b965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  multiplierX: 1.5
-  multiplierY: 2.5
-  multiplierZ: 1.5
-  offsetY: 1.5
 --- !u!1 &118228783
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,6 +264,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 56057a37a5a7fb040b145a9b6401b4ec, type: 2}
   - {fileID: 11400000, guid: 4768a7f70f47ebf48b4d34b7ec87bed7, type: 2}
   - {fileID: 11400000, guid: 2348c35447a3ac649952bf7a2e981967, type: 2}
+  shelves: {fileID: 69809212}
   combinationEffect: {fileID: 8666432253138913347, guid: 2097a1a8e769c8441a4814e4e57b5a90, type: 3}
   badCombinationEffect: {fileID: 8666432253138913347, guid: d879d4f750f53ff4e9dfa04530b7e6c9, type: 3}
 --- !u!4 &142164361
