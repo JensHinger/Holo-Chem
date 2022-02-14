@@ -6,16 +6,19 @@ public class GameManager : MonoBehaviour
 {
 
     [SerializeField] private ScriptableObject[] recipes;
+    public GameObject shelves;
     public ParticleSystem combinationEffect;
     public ParticleSystem badCombinationEffect;
 
     private GameObject[] spawnPoints;
     private AudioSource audio;
+    private ShelfInteractions shelfInteractions;
 
     private void Start()
     {
         spawnPoints = GameObject.FindGameObjectsWithTag("Respawn");
         audio = gameObject.GetComponent<AudioSource>();
+        shelfInteractions = shelves.GetComponent<ShelfInteractions>();
     }
 
     void OnEnable()
@@ -45,54 +48,59 @@ public class GameManager : MonoBehaviour
         Vector3 second_position = second.transform.position;
         Vector3 collision_position = new Vector3((first_position.x + second_position.x) / 2, (first_position.y + second_position.y) / 2, (first_position.z + second_position.z) / 2);
 
-        // Iterate over every recipe
-        foreach (CombinationRecipe recipe in recipes)
+        // Check if objects are in the shelf
+        if(shelfInteractions.CheckInShelf(first) && shelfInteractions.CheckInShelf(second))
         {
 
-            // Check the names against each recipe
-            if (recipe.recipe[0].name == first_name && recipe.recipe[1].name == second_name || recipe.recipe[1].name == first_name && recipe.recipe[0].name == second_name)
+            // Iterate over every recipe
+            foreach (CombinationRecipe recipe in recipes)
             {
 
+                // Check the names against each recipe
+                if (recipe.recipe[0].name == first_name && recipe.recipe[1].name == second_name || recipe.recipe[1].name == first_name && recipe.recipe[0].name == second_name)
+                {
+
+                    // Destroy the gameobjects which should be consumend
+                    Destroy(first);
+                    Destroy(second);
+
+                    // Instantiate and Play combinationEffect
+                    audio.Play();
+                    Instantiate(combinationEffect, collision_position, combinationEffect.transform.rotation);
+                
+                    // Instantiate the result prefab
+                    Instantiate(recipe.result, collision_position, recipe.result.transform.rotation);
+
+                    // ToDo: Unlock spawnpoint for result
+                    foreach(GameObject spawnpoint in spawnPoints)
+                    {
+                        SpawnManager spawnScript = spawnpoint.GetComponent<SpawnManager>();
+                        string spawnObjectName = spawnScript.toSpawn.name;
+
+                        if (spawnObjectName == recipe.result.name)
+                        {
+                            spawnScript.spawnActivated = true;
+                        }
+                    }
+
+                    // Set the combination fail on true
+                    fail_combination = false;
+
+                    // Stop foreach loop when combination is found
+                    break;
+                }
+            }
+
+            if (fail_combination) 
+            { 
                 // Destroy the gameobjects which should be consumend
                 Destroy(first);
                 Destroy(second);
 
                 // Instantiate and Play combinationEffect
-                audio.Play();
-                Instantiate(combinationEffect, collision_position, combinationEffect.transform.rotation);
-                
-                // Instantiate the result prefab
-                Instantiate(recipe.result, collision_position, recipe.result.transform.rotation);
-
-                // ToDo: Unlock spawnpoint for result
-                foreach(GameObject spawnpoint in spawnPoints)
-                {
-                    SpawnManager spawnScript = spawnpoint.GetComponent<SpawnManager>();
-                    string spawnObjectName = spawnScript.toSpawn.name;
-
-                    if (spawnObjectName == recipe.result.name)
-                    {
-                        spawnScript.spawnActivated = true;
-                    }
-                }
-
-                // Set the combination fail on true
-                fail_combination = false;
-
-                // Stop foreach loop when combination is found
-                break;
+                Instantiate(badCombinationEffect, collision_position, badCombinationEffect.transform.rotation);
             }
         }
-
-        if (fail_combination) 
-        { 
-            // Destroy the gameobjects which should be consumend
-            Destroy(first);
-            Destroy(second);
-
-            // Instantiate and Play combinationEffect
-            Instantiate(badCombinationEffect, collision_position, badCombinationEffect.transform.rotation);
-        }
-        
     }
+
 }

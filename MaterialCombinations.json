@@ -98,5 +98,9 @@
   {
     "result": "Windturbine",
     "base" : ["Luft", "Energy"]
+  },
+  {
+    "result": "Spacestation",
+    "base" : ["House", "Spacecraft"]
   }
 ]
