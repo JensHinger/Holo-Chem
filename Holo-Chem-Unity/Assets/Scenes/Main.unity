@@ -267,6 +267,9 @@ MonoBehaviour:
   shelves: {fileID: 69809212}
   combinationEffect: {fileID: 8666432253138913347, guid: 2097a1a8e769c8441a4814e4e57b5a90, type: 3}
   badCombinationEffect: {fileID: 8666432253138913347, guid: d879d4f750f53ff4e9dfa04530b7e6c9, type: 3}
+  successCombinationSound: {fileID: 8300000, guid: c9536baec2a7f794593c86d29f09d97d, type: 3}
+  failedCombinationSound: {fileID: 8300000, guid: 3cdf394888a510f46a6b242a6ec6e65d, type: 3}
+  combinationSound: {fileID: 8300000, guid: 0921f6f9558868849b957dd4671bcfdc, type: 3}
 --- !u!4 &142164361
 Transform:
   m_ObjectHideFlags: 0
@@ -291,7 +294,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 53468711de30dd4479c803934c31ec70, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

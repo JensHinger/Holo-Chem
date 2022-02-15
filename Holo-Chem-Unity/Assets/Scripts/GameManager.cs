@@ -11,13 +11,18 @@ public class GameManager : MonoBehaviour
     public ParticleSystem badCombinationEffect;
 
     private GameObject[] spawnPoints;
-    private AudioSource audio;
     private ShelfInteractions shelfInteractions;
+
+    [Header("Audio")]
+    public AudioClip successCombinationSound;
+    public AudioClip failedCombinationSound;
+    public AudioClip combinationSound;
+    private AudioSource audioSource;
 
     private void Start()
     {
         spawnPoints = GameObject.FindGameObjectsWithTag("Respawn");
-        audio = gameObject.GetComponent<AudioSource>();
+        audioSource = gameObject.GetComponent<AudioSource>();
         shelfInteractions = shelves.GetComponent<ShelfInteractions>();
     }
 
@@ -52,6 +57,9 @@ public class GameManager : MonoBehaviour
         if(shelfInteractions.CheckInShelf(first) && shelfInteractions.CheckInShelf(second))
         {
 
+            // Play the standard Combination sound
+            audioSource.PlayOneShot(combinationSound, 0.5f);
+
             // Iterate over every recipe
             foreach (CombinationRecipe recipe in recipes)
             {
@@ -64,8 +72,10 @@ public class GameManager : MonoBehaviour
                     Destroy(first);
                     Destroy(second);
 
+                    // Play sound for sucessful combination
+                    audioSource.PlayOneShot(successCombinationSound);
+
                     // Instantiate and Play combinationEffect
-                    audio.Play();
                     Instantiate(combinationEffect, collision_position, combinationEffect.transform.rotation);
                 
                     // Instantiate the result prefab
@@ -92,7 +102,10 @@ public class GameManager : MonoBehaviour
             }
 
             if (fail_combination) 
-            { 
+            {
+                // Play the failed Combination sound
+                audioSource.PlayOneShot(failedCombinationSound); 
+
                 // Destroy the gameobjects which should be consumend
                 Destroy(first);
                 Destroy(second);
