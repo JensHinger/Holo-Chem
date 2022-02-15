@@ -27,7 +27,7 @@ public class ShelfInteractions : MonoBehaviour
 
     public bool CheckInShelf(GameObject toCheck)
     {
-        Collider[] colliding = Physics.OverlapBox(transform.position, boxSize);
+        Collider[] colliding = Physics.OverlapBox(transform.position, boxSize / 2);
 
         foreach(Collider col in colliding) 
         {
