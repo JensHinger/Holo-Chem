@@ -79,10 +79,11 @@ public class GameManager : MonoBehaviour
                     Instantiate(combinationEffect, collision_position, combinationEffect.transform.rotation);
                 
                     // Instantiate the result prefab
-                    Instantiate(recipe.result, collision_position, recipe.result.transform.rotation);
+                    GameObject obj = Instantiate(recipe.result, collision_position, recipe.result.transform.rotation);
+                    Destroy(obj.GetComponent<ShowNameTag>());
 
                     // ToDo: Unlock spawnpoint for result
-                    foreach(GameObject spawnpoint in spawnPoints)
+                    foreach (GameObject spawnpoint in spawnPoints)
                     {
                         SpawnManager spawnScript = spawnpoint.GetComponent<SpawnManager>();
                         string spawnObjectName = spawnScript.toSpawn.name;

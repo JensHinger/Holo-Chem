@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 4064797707125993440}
   - component: {fileID: 3851276547300732032}
   - component: {fileID: 3950267516188430399}
-  - component: {fileID: 577185784373332428}
+  - component: {fileID: -4271235485365371006}
   m_Layer: 0
   m_Name: Water
   m_TagString: Material
@@ -170,10 +170,34 @@ MonoBehaviour:
       m_Calls: []
   onHoverEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -4271235485365371006}
+        m_TargetAssemblyTypeName: ShowNameTag, Assembly-CSharp
+        m_MethodName: ShowSign
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onHoverExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -4271235485365371006}
+        m_TargetAssemblyTypeName: ShowNameTag, Assembly-CSharp
+        m_MethodName: HideSign
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!54 &2355364639844711270
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -227,7 +251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9052c274da2591d4385f1b4d70af1b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &577185784373332428
+--- !u!114 &-4271235485365371006
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -236,6 +260,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 8824217787794855133}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9052c274da2591d4385f1b4d70af1b7d, type: 3}
+  m_Script: {fileID: 11500000, guid: 65d1f2a04b21f8e4c9b394ef453fbd20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
