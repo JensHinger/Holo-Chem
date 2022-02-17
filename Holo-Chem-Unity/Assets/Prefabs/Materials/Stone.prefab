@@ -14,11 +14,11 @@ GameObject:
   - component: {fileID: 986297485874283360}
   - component: {fileID: -7516058180068211791}
   - component: {fileID: -7359040422405699012}
-  - component: {fileID: 2028774551031194592}
-  - component: {fileID: 1040297171872962596}
   - component: {fileID: -6641164678106423607}
   - component: {fileID: 5739025314293925802}
   - component: {fileID: 6114383370798153431}
+  - component: {fileID: 2028774551031194592}
+  - component: {fileID: 1040297171872962596}
   m_Layer: 0
   m_Name: Stone
   m_TagString: Material
@@ -198,35 +198,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!54 &2028774551031194592
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7188837116034520689}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!65 &1040297171872962596
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7188837116034520689}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 8.916217, y: 6.6627846, z: 8.477271}
-  m_Center: {x: -1.4538122, y: 0.84955966, z: 0.52755165}
 --- !u!114 &-6641164678106423607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -263,3 +234,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65d1f2a04b21f8e4c9b394ef453fbd20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &2028774551031194592
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7188837116034520689}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1040297171872962596
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7188837116034520689}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.916217, y: 6.6627846, z: 8.477271}
+  m_Center: {x: -1.4538122, y: 0.84955966, z: 0.52755165}
