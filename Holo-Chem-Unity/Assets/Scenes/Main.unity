@@ -252,6 +252,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 56057a37a5a7fb040b145a9b6401b4ec, type: 2}
   - {fileID: 11400000, guid: 4768a7f70f47ebf48b4d34b7ec87bed7, type: 2}
   - {fileID: 11400000, guid: 2348c35447a3ac649952bf7a2e981967, type: 2}
+  - {fileID: 11400000, guid: 8f85fd02532a6d041bd72e4758483003, type: 2}
   shelves: {fileID: 69809212}
   combinationEffect: {fileID: 8666432253138913347, guid: 2097a1a8e769c8441a4814e4e57b5a90, type: 3}
   badCombinationEffect: {fileID: 8666432253138913347, guid: d879d4f750f53ff4e9dfa04530b7e6c9, type: 3}

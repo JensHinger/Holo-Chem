@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe1216307fcd2d4ca52ef87cfaa6c09, type: 3}
+  m_Name: Steam(Fire+Water)
+  m_EditorClassIdentifier: 
+  recipe:
+  - {fileID: 2604949741871795274, guid: fe00f8f67eaad8542a787c8b2ba11679, type: 3}
+  - {fileID: 8824217787794855133, guid: 7b4c24c057910474397c3f038c467be1, type: 3}
+  result: {fileID: 2337544384738784024, guid: d2d93879b37127447abd2b3c240ddb75, type: 3}
