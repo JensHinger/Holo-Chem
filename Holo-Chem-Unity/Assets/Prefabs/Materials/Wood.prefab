@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: 7084929198404077564}
   - component: {fileID: 1837269763648009862}
   - component: {fileID: -1446909345222460536}
-  - component: {fileID: -6917915685583789929}
   - component: {fileID: 568317046584696175}
   - component: {fileID: -7693178375273545531}
   - component: {fileID: 4312270896622890327}
+  - component: {fileID: -6917915685583789929}
   - component: {fileID: -6465808293638355735}
   - component: {fileID: -1669501230703812864}
   m_Layer: 0
@@ -120,18 +120,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   autoConstraintSelection: 1
   selectedConstraints: []
---- !u!114 &-6917915685583789929
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8742126662420047401}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36bbbea2bdd89f7458492f495b97ef96, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &568317046584696175
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -240,6 +228,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &-6917915685583789929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8742126662420047401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36bbbea2bdd89f7458492f495b97ef96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &-6465808293638355735
 MonoBehaviour:
   m_ObjectHideFlags: 0

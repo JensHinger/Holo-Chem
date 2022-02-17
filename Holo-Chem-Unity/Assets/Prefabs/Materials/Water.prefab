@@ -14,11 +14,11 @@ GameObject:
   - component: {fileID: 5664035183849526745}
   - component: {fileID: -4598105048260508522}
   - component: {fileID: -1485524625675662896}
-  - component: {fileID: 2355364639844711270}
-  - component: {fileID: 4064797707125993440}
   - component: {fileID: 3851276547300732032}
   - component: {fileID: 3950267516188430399}
   - component: {fileID: -4271235485365371006}
+  - component: {fileID: 2355364639844711270}
+  - component: {fileID: 4064797707125993440}
   m_Layer: 0
   m_Name: Water
   m_TagString: Material
@@ -198,35 +198,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!54 &2355364639844711270
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8824217787794855133}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!65 &4064797707125993440
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8824217787794855133}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.3417168, y: 1.9999998, z: 2.4622269}
-  m_Center: {x: 0, y: 0.00000008940697, z: -0.00000047683716}
 --- !u!114 &3851276547300732032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -263,3 +234,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65d1f2a04b21f8e4c9b394ef453fbd20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &2355364639844711270
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8824217787794855133}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &4064797707125993440
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8824217787794855133}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.3417168, y: 1.9999998, z: 2.4622269}
+  m_Center: {x: 0, y: 0.00000008940697, z: -0.00000047683716}
