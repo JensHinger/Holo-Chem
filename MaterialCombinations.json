@@ -8,7 +8,7 @@
     "base" : ["Stone", "Stone"]
   },
   {
-    "result": "Vapor",
+    "result": "Steam",
     "base" : ["Fire", "Water"]
   },
   {
@@ -21,11 +21,11 @@
   },
   {
     "result": "Energy",
-    "base" : ["Vapor", "Metal"]
+    "base" : ["Steam", "Metal"]
   },
   {
     "result": "Plasma",
-    "base" : ["Vapor", "Fire"]
+    "base" : ["Steam", "Fire"]
   },
   {
     "result": "Sun",
