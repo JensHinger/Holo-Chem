@@ -171,7 +171,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &140587159
 GameObject:
@@ -253,6 +253,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4768a7f70f47ebf48b4d34b7ec87bed7, type: 2}
   - {fileID: 11400000, guid: 2348c35447a3ac649952bf7a2e981967, type: 2}
   - {fileID: 11400000, guid: 8f85fd02532a6d041bd72e4758483003, type: 2}
+  - {fileID: 11400000, guid: c0cc24f4e62945846bef78a2b66411e5, type: 2}
+  - {fileID: 11400000, guid: 033da6ff73ee8f241a434ece43684a15, type: 2}
+  - {fileID: 11400000, guid: 422d1c8cba9ca2542ba2d3d1b053f3e5, type: 2}
+  - {fileID: 11400000, guid: 761be723a84f897478d45c27d4ff54e9, type: 2}
   shelves: {fileID: 69809212}
   combinationEffect: {fileID: 8666432253138913347, guid: 2097a1a8e769c8441a4814e4e57b5a90, type: 3}
   badCombinationEffect: {fileID: 8666432253138913347, guid: d879d4f750f53ff4e9dfa04530b7e6c9, type: 3}
@@ -881,7 +885,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4355885078910525961, guid: a58e58c8d8f37d842917c51eb25d18e5, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4355885078910525961, guid: a58e58c8d8f37d842917c51eb25d18e5, type: 3}
       propertyPath: m_LocalPosition.x

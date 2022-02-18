@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe1216307fcd2d4ca52ef87cfaa6c09, type: 3}
+  m_Name: Metal(Fire+Stone)
+  m_EditorClassIdentifier: 
+  recipe:
+  - {fileID: 7188837116034520689, guid: f831af65752f10041af5d9736feaa25e, type: 3}
+  - {fileID: 2604949741871795274, guid: fe00f8f67eaad8542a787c8b2ba11679, type: 3}
+  result: {fileID: 7605866348441900725, guid: f308413edd8dddc488ee467636af6670, type: 3}
