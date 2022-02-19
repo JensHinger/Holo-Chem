@@ -4534,7 +4534,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c62f1ad9a1f21524e8031bf82fb02b3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toSpawn: {fileID: 4244900910931547881, guid: 6ac27c186a87e5244b86f6a348bf344f, type: 3}
+  toSpawn: {fileID: 9183289536070049747, guid: 5599377a41e90bc438603ab559d74298, type: 3}
   spawnActivated: 1
   gizmoLoc: {x: 0, y: 0, z: 0}
   sphereOffset: 0.2
@@ -5194,7 +5194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c62f1ad9a1f21524e8031bf82fb02b3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toSpawn: {fileID: 8824217787794855133, guid: 7b4c24c057910474397c3f038c467be1, type: 3}
+  toSpawn: {fileID: 4976291920928054825, guid: 63c22a6cf6d018e458df608839be16c2, type: 3}
   spawnActivated: 1
   gizmoLoc: {x: 0, y: 0, z: 0}
   sphereOffset: 0.2
