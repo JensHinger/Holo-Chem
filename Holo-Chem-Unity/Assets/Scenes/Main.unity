@@ -385,6 +385,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4355885078500592186, guid: a58e58c8d8f37d842917c51eb25d18e5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4355885078500592186, guid: a58e58c8d8f37d842917c51eb25d18e5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4355885078500592186, guid: a58e58c8d8f37d842917c51eb25d18e5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4355885078782194362, guid: a58e58c8d8f37d842917c51eb25d18e5, type: 3}
       propertyPath: spawnActivated
       value: 1
@@ -468,6 +480,10 @@ PrefabInstance:
     - target: {fileID: 4355885079782351112, guid: a58e58c8d8f37d842917c51eb25d18e5, type: 3}
       propertyPath: spawnActivated
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4355885079937796005, guid: a58e58c8d8f37d842917c51eb25d18e5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 4355885080068038045, guid: a58e58c8d8f37d842917c51eb25d18e5, type: 3}
       propertyPath: spawnActivated
