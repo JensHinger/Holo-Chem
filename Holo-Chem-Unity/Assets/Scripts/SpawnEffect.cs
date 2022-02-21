@@ -67,7 +67,7 @@ public class SpawnEffect : MonoBehaviour
         while (time < duration && transform.localScale.x > startScale.x)
         {    
             // Calculate the scaleModifier for each axis
-            float scaleModifierX = Mathf.Lerp(startValue, 1-scaleDiffX, time / duration);
+            float scaleModifierX = Mathf.Lerp(startValue, 1 - scaleDiffX, time / duration);
             float scaleModifierY = Mathf.Lerp(startValue, 1 - scaleDiffY, time / duration);
             float scaleModifierZ = Mathf.Lerp(startValue, 1 - scaleDiffZ, time / duration);
             

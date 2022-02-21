@@ -28,6 +28,9 @@ public class SpawnManager : MonoBehaviour
     {
         BoxCollider box = toSpawn.GetComponent<BoxCollider>();
 
+        spawn = gameObject.transform.position;
+        spawn = new Vector3(spawn.x, spawn.y + sphereOffset, spawn.z);
+
         var hitColliders = Physics.OverlapSphere(spawn, sphereSize);
 
         if(hitColliders.Length == 2)
