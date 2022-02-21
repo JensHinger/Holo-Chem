@@ -477,7 +477,23 @@ PrefabInstance:
       propertyPath: spawnActivated
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4355885080271511560, guid: a58e58c8d8f37d842917c51eb25d18e5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4355885080271511560, guid: a58e58c8d8f37d842917c51eb25d18e5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4355885080271511560, guid: a58e58c8d8f37d842917c51eb25d18e5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4355885080275619707, guid: a58e58c8d8f37d842917c51eb25d18e5, type: 3}
+      propertyPath: spawnActivated
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4355885080545620092, guid: a58e58c8d8f37d842917c51eb25d18e5, type: 3}
       propertyPath: spawnActivated
       value: 1
       objectReference: {fileID: 0}
