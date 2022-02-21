@@ -151,14 +151,14 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 8605645988491218387, guid: 058779ae33e48bb4b8fa861722156005, type: 3}
+  constraintsManager: {fileID: 9157964043854652673}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: -4507541053874982022}
         m_TargetAssemblyTypeName: SetNewParent, Assembly-CSharp
-        m_MethodName: SetParent
+        m_MethodName: SetParentNull
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

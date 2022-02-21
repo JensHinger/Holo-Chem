@@ -5,9 +5,15 @@ using UnityEngine;
 public class SetNewParent : MonoBehaviour
 {
 
-    public void SetParent()
+    public void SetParentNull()
     {
-        transform.SetParent(null, true);
+        Vector3 originalPosition = transform.position;
+        Quaternion originalRotation = transform.rotation;
+
+        transform.SetParent(null, false);
+
+        transform.position = originalPosition;
+        transform.rotation = originalRotation;
 
         ShowNameTag nametagScript = GetComponent<ShowNameTag>();
         

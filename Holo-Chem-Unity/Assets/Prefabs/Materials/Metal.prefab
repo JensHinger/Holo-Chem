@@ -154,7 +154,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: -8291824340426882365}
         m_TargetAssemblyTypeName: SetNewParent, Assembly-CSharp
-        m_MethodName: SetParent
+        m_MethodName: SetParentNull
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
