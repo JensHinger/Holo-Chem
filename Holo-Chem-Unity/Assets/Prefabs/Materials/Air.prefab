@@ -100,6 +100,7 @@ GameObject:
   - component: {fileID: -2863557142967223955}
   - component: {fileID: -8460566333818427726}
   - component: {fileID: 3670208951755760390}
+  - component: {fileID: 8967608303299076038}
   m_Layer: 0
   m_Name: Air
   m_TagString: Material
@@ -229,7 +230,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 3026914049607883235}
+  constraintsManager: {fileID: 8605645988491218387, guid: 058779ae33e48bb4b8fa861722156005, type: 3}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -344,3 +345,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.7320509, y: 2.6120136, z: 2}
   m_Center: {x: 0.000000029802322, y: 1.3060068, z: 0}
+--- !u!114 &8967608303299076038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3874393328883236712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 376c488deb3beb044899bbfdac2ffaa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleModifier: 0.5
+  targetScale: 1.05
+  timeToGrow: 0.5
+  normalScale: 0.95
+  timeToShrink: 0.5

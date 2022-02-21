@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
 {
-
+    Vector3 spawn;
     public GameObject toSpawn;
     public bool spawnActivated = false;
     public Vector3 gizmoLoc;
@@ -15,6 +15,9 @@ public class SpawnManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        spawn = gameObject.transform.position;
+        spawn = new Vector3(spawn.x, spawn.y + sphereOffset, spawn.z);
+
         gizmoLoc = gameObject.transform.position;
         gizmoLoc = new Vector3(gizmoLoc.x, gizmoLoc.y + sphereOffset, gizmoLoc.z);
         SpawnObject();
@@ -24,9 +27,6 @@ public class SpawnManager : MonoBehaviour
     void FixedUpdate()
     {
         BoxCollider box = toSpawn.GetComponent<BoxCollider>();
-
-        Vector3 spawn = gameObject.transform.position;
-        spawn = new Vector3(spawn.x, spawn.y+sphereOffset, spawn.z);
 
         var hitColliders = Physics.OverlapSphere(spawn, sphereSize);
 
@@ -46,7 +46,7 @@ public class SpawnManager : MonoBehaviour
     {
         if (spawnActivated)
         {
-            Object.Instantiate(toSpawn, gameObject.transform.position, toSpawn.transform.rotation, gameObject.transform);
+            Object.Instantiate(toSpawn, spawn, toSpawn.transform.rotation, gameObject.transform);
         }
     }
 

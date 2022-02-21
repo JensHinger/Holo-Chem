@@ -4903,6 +4903,7 @@ GameObject:
   - component: {fileID: 1209417480161381053}
   - component: {fileID: 1840205002650950791}
   - component: {fileID: 4464141253775790306}
+  - component: {fileID: -1351615176651371104}
   m_Layer: 0
   m_Name: Fire
   m_TagString: Material
@@ -4983,7 +4984,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 7293381601833275428}
+  constraintsManager: {fileID: 8605645988491218387, guid: 058779ae33e48bb4b8fa861722156005, type: 3}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -5098,3 +5099,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-1351615176651371104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2604949741871795274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 376c488deb3beb044899bbfdac2ffaa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleModifier: 0.5
+  targetScale: 1.05
+  timeToGrow: 0.5
+  normalScale: 0.95
+  timeToShrink: 0.5

@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 7950891923242147250}
   - component: {fileID: -4382253921679489998}
   - component: {fileID: 4851885304813703553}
+  - component: {fileID: -3049306201652659369}
   m_Layer: 0
   m_Name: Energy
   m_TagString: Material
@@ -265,3 +266,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.6258799, y: 4.9017954, z: 2.987095}
   m_Center: {x: 0.000007569791, y: 2.4508977, z: 1.07573184e-19}
+--- !u!114 &-3049306201652659369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4080104415289573987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 376c488deb3beb044899bbfdac2ffaa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleModifier: 0.5
+  targetScale: 1.05
+  timeToGrow: 0.5
+  normalScale: 0.95
+  timeToShrink: 0.5

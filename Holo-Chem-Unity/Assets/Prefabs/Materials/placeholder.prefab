@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 4894326665473525695}
   - component: {fileID: 2426144060906437766}
   - component: {fileID: 7225179191728575604}
+  - component: {fileID: -7384689057295967449}
   m_Layer: 0
   m_Name: placeholder
   m_TagString: Material
@@ -159,7 +160,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 2146240245654203184}
+  constraintsManager: {fileID: 1363815209687549300, guid: d2d93879b37127447abd2b3c240ddb75, type: 3}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -261,3 +262,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65d1f2a04b21f8e4c9b394ef453fbd20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-7384689057295967449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4244900910931547881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 376c488deb3beb044899bbfdac2ffaa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleModifier: 0.5
+  targetScale: 1.05
+  timeToGrow: 0.5
+  normalScale: 0.95
+  timeToShrink: 0.5

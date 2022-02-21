@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 6114383370798153431}
   - component: {fileID: 2028774551031194592}
   - component: {fileID: 1040297171872962596}
+  - component: {fileID: 3778993381971348071}
   m_Layer: 0
   m_Name: Stone
   m_TagString: Material
@@ -148,7 +149,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: -7516058180068211791}
+  constraintsManager: {fileID: 1363815209687549300, guid: d2d93879b37127447abd2b3c240ddb75, type: 3}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -263,3 +264,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.916217, y: 6.6627846, z: 8.477271}
   m_Center: {x: -1.4538122, y: 0.84955966, z: 0.52755165}
+--- !u!114 &3778993381971348071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7188837116034520689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 376c488deb3beb044899bbfdac2ffaa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleModifier: 0.5
+  targetScale: 1.05
+  timeToGrow: 0.5
+  normalScale: 0.95
+  timeToShrink: 0.5

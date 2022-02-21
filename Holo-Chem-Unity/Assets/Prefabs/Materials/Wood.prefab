@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: -6917915685583789929}
   - component: {fileID: -6465808293638355735}
   - component: {fileID: -1669501230703812864}
+  - component: {fileID: -2893471586829769078}
   m_Layer: 0
   m_Name: Wood
   m_TagString: Material
@@ -178,7 +179,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: -1446909345222460536}
+  constraintsManager: {fileID: 1363815209687549300, guid: d2d93879b37127447abd2b3c240ddb75, type: 3}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -264,3 +265,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65d1f2a04b21f8e4c9b394ef453fbd20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-2893471586829769078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8742126662420047401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 376c488deb3beb044899bbfdac2ffaa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleModifier: 0.5
+  targetScale: 1.05
+  timeToGrow: 0.5
+  normalScale: 0.95
+  timeToShrink: 0.5

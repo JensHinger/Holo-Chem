@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 4251548432301425968}
   - component: {fileID: 5841478870420160080}
   - component: {fileID: 5324133539926511503}
+  - component: {fileID: -7649499197755957113}
   m_Layer: 0
   m_Name: Glass
   m_TagString: Material
@@ -146,7 +147,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: -6731895514562809486}
+  constraintsManager: {fileID: 8605645988491218387, guid: 058779ae33e48bb4b8fa861722156005, type: 3}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -261,3 +262,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.6485884, y: 2.8991284, z: 2.6485884}
   m_Center: {x: 0, y: 0.44956416, z: 0}
+--- !u!114 &-7649499197755957113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5323743996222914291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 376c488deb3beb044899bbfdac2ffaa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleModifier: 0.5
+  targetScale: 1.05
+  timeToGrow: 0.5
+  normalScale: 0.95
+  timeToShrink: 0.5

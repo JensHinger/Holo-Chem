@@ -182,6 +182,7 @@ GameObject:
   - component: {fileID: 8050646416785204296}
   - component: {fileID: 327088414717130920}
   - component: {fileID: -1674391842262052440}
+  - component: {fileID: -146457641178558520}
   m_Layer: 0
   m_Name: Atom
   m_TagString: Material
@@ -262,7 +263,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 2188100819952751469}
+  constraintsManager: {fileID: 8605645988491218387, guid: 058779ae33e48bb4b8fa861722156005, type: 3}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -377,3 +378,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9052c274da2591d4385f1b4d70af1b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-146457641178558520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8932993627337745029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 376c488deb3beb044899bbfdac2ffaa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleModifier: 0.5
+  targetScale: 1.05
+  timeToGrow: 0.5
+  normalScale: 0.95
+  timeToShrink: 0.5

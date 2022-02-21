@@ -4824,6 +4824,7 @@ GameObject:
   - component: {fileID: -8118652155087747921}
   - component: {fileID: 6898051082414204108}
   - component: {fileID: 1342035829367309673}
+  - component: {fileID: 6162031240262515437}
   m_Layer: 0
   m_Name: Water
   m_TagString: Material
@@ -4973,7 +4974,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 6522797793297666808}
+  constraintsManager: {fileID: 1363815209687549300, guid: d2d93879b37127447abd2b3c240ddb75, type: 3}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -5088,6 +5089,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.023417167, y: 0.024622265, z: 0.019999994}
   m_Center: {x: 0, y: 0, z: 0.009999997}
+--- !u!114 &6162031240262515437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4976291920928054825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 376c488deb3beb044899bbfdac2ffaa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleModifier: 0.5
+  targetScale: 1.05
+  timeToGrow: 0.5
+  normalScale: 0.95
+  timeToShrink: 0.5
 --- !u!1 &6862775457705382333
 GameObject:
   m_ObjectHideFlags: 0

@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 7058921350133195896}
   - component: {fileID: -7162806389464654809}
   - component: {fileID: -4965448620227279510}
+  - component: {fileID: -6277341820321553159}
   m_Layer: 0
   m_Name: Tools
   m_TagString: Material
@@ -150,7 +151,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 5768853610485883077}
+  constraintsManager: {fileID: 1363815209687549300, guid: d2d93879b37127447abd2b3c240ddb75, type: 3}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -265,3 +266,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.0463345, y: 25.345058, z: 2.5122237}
   m_Center: {x: 0.3902888, y: 8.562097, z: -0.09905114}
+--- !u!114 &-6277341820321553159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3855583884114067963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 376c488deb3beb044899bbfdac2ffaa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleModifier: 0.5
+  targetScale: 1.05
+  timeToGrow: 0.5
+  normalScale: 0.95
+  timeToShrink: 0.5

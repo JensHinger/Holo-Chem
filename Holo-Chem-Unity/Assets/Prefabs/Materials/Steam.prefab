@@ -4969,6 +4969,7 @@ GameObject:
   - component: {fileID: -2541336341917528643}
   - component: {fileID: -3943139532558246955}
   - component: {fileID: -7325329957478789107}
+  - component: {fileID: -8173598543957830014}
   m_Layer: 0
   m_Name: Steam
   m_TagString: Material
@@ -5235,6 +5236,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65d1f2a04b21f8e4c9b394ef453fbd20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-8173598543957830014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2337544384738784024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 376c488deb3beb044899bbfdac2ffaa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleModifier: 0.5
+  targetScale: 1.05
+  timeToGrow: 0.5
+  normalScale: 0.95
+  timeToShrink: 0.5
 --- !u!1 &2417143106953049162
 GameObject:
   m_ObjectHideFlags: 0

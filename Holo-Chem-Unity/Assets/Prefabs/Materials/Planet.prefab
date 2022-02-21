@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: -4800510098031349209}
   - component: {fileID: -7444658159011474653}
   - component: {fileID: -1298422357535926166}
+  - component: {fileID: -7727541787331998040}
   m_Layer: 0
   m_Name: Planet
   m_TagString: Material
@@ -148,7 +149,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: -6357495999489547112}
+  constraintsManager: {fileID: 1363815209687549300, guid: d2d93879b37127447abd2b3c240ddb75, type: 3}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -263,3 +264,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0275867, y: 2.066948, z: 2.024467}
   m_Center: {x: 0.013793349, y: -0.003473997, z: -0.012233555}
+--- !u!114 &-7727541787331998040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611019806562790286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 376c488deb3beb044899bbfdac2ffaa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleModifier: 0.5
+  targetScale: 1.05
+  timeToGrow: 0.5
+  normalScale: 0.95
+  timeToShrink: 0.5

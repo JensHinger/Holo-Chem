@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: -8291824340426882365}
   - component: {fileID: -4156490165485570014}
   - component: {fileID: 8121935972058381199}
+  - component: {fileID: -3372578876719050910}
   m_Layer: 0
   m_Name: Metal
   m_TagString: Material
@@ -261,3 +262,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.917889, y: 2.4282506, z: 4.9005384}
   m_Center: {x: 0, y: 0.042764544, z: -0.0005418062}
+--- !u!114 &-3372578876719050910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7605866348441900725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 376c488deb3beb044899bbfdac2ffaa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleModifier: 0.5
+  targetScale: 1.05
+  timeToGrow: 0.5
+  normalScale: 0.95
+  timeToShrink: 0.25
