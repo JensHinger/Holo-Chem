@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe1216307fcd2d4ca52ef87cfaa6c09, type: 3}
+  m_Name: Atom(Microscope+Cells)
+  m_EditorClassIdentifier: 
+  recipe:
+  - {fileID: 3872699910068401139, guid: 7138e84c5fa1e8f48a77b35d2ffbd83b, type: 3}
+  - {fileID: 6293834667838685009, guid: eeb90e31592736c48b1614c200d93ac7, type: 3}
+  result: {fileID: 8932993627337745029, guid: c413d986e116a2849828335ad7d0394f, type: 3}

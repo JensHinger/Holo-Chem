@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe1216307fcd2d4ca52ef87cfaa6c09, type: 3}
+  m_Name: Lava(Fire+Dirt)
+  m_EditorClassIdentifier: 
+  recipe:
+  - {fileID: 2604949741871795274, guid: fe00f8f67eaad8542a787c8b2ba11679, type: 3}
+  - {fileID: 4004481706063428666, guid: 944f3b8dc70a028478365484f1f9462c, type: 3}
+  result: {fileID: 3423576936056282949, guid: fce4c3f680dcb204bb3959fd385cdb1b, type: 3}

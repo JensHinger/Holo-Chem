@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe1216307fcd2d4ca52ef87cfaa6c09, type: 3}
+  m_Name: Spacecraft(Solarsystem+Plane)
+  m_EditorClassIdentifier: 
+  recipe:
+  - {fileID: 1427609424764992731, guid: 88651c44b692e164983afc222e629215, type: 3}
+  - {fileID: 7709651449108385188, guid: 50dd6cae77883ae4e861e0091a7d8fef, type: 3}
+  result: {fileID: 5976331425981960656, guid: 37b103958f7317641877e9f9d6040463, type: 3}
