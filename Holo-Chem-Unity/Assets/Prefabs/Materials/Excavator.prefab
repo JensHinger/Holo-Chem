@@ -34,13 +34,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 960565784302008869}
-  m_LocalRotation: {x: 0, y: 0.9961947, z: -0, w: -0.08715578}
-  m_LocalPosition: {x: 0.16496, y: -0.557, z: 4.49}
+  m_LocalRotation: {x: 0.08700313, y: -0.05900525, z: -0.9944457, w: 0.0051622717}
+  m_LocalPosition: {x: 0.16496, y: -0.5369649, z: 4.555309}
   m_LocalScale: {x: 0.10305976, y: 0.10305976, z: 0.10305976}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 190, z: 0}
+  m_LocalEulerAnglesHint: {x: -6.688, y: 349.931, z: 181.185}
 --- !u!33 &3580526922696257338
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -146,16 +146,52 @@ MonoBehaviour:
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4071965408337266381}
+        m_TargetAssemblyTypeName: SetNewParent, Assembly-CSharp
+        m_MethodName: SetParent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onManipulationEnded:
     m_PersistentCalls:
       m_Calls: []
   onHoverEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6783618492060687878}
+        m_TargetAssemblyTypeName: ShowNameTag, Assembly-CSharp
+        m_MethodName: ShowSign
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onHoverExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6783618492060687878}
+        m_TargetAssemblyTypeName: ShowNameTag, Assembly-CSharp
+        m_MethodName: HideSign
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &7351440016014085732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,8 +269,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.0000005, y: 3.3471344, z: 3.791917}
-  m_Center: {x: -0.0000000047678275, y: 2.013567, z: 0.39596605}
+  m_Size: {x: 2.0393236, y: 3.573618, z: 4.5798593}
+  m_Center: {x: -0.0018276301, y: -1.6849058, z: -0.6461917}
 --- !u!114 &5957079859424079733
 MonoBehaviour:
   m_ObjectHideFlags: 0
