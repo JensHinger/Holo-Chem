@@ -7,7 +7,7 @@ public class SetNewParent : MonoBehaviour
 
     public void SetParent()
     {
-        transform.parent = null;
+        transform.SetParent(null, true);
 
         ShowNameTag nametagScript = GetComponent<ShowNameTag>();
         
