@@ -77,8 +77,9 @@ public class GameManager : MonoBehaviour
 
                     // Instantiate and Play combinationEffect
                     Instantiate(combinationEffect, collision_position, combinationEffect.transform.rotation);
-                
+
                     // Instantiate the result prefab
+                    recipe.result.transform.localScale /= 3.5f;
                     GameObject obj = Instantiate(recipe.result, collision_position, recipe.result.transform.rotation);
                     Destroy(obj.GetComponent<ShowNameTag>());
 

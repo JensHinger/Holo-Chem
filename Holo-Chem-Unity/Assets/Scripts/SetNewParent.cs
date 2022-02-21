@@ -7,13 +7,8 @@ public class SetNewParent : MonoBehaviour
 
     public void SetParentNull()
     {
-        Vector3 originalPosition = transform.position;
-        Quaternion originalRotation = transform.rotation;
 
-        transform.SetParent(null, false);
-
-        transform.position = originalPosition;
-        transform.rotation = originalRotation;
+        transform.SetParent(null, true);
 
         ShowNameTag nametagScript = GetComponent<ShowNameTag>();
         
