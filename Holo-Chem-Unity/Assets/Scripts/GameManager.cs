@@ -79,8 +79,8 @@ public class GameManager : MonoBehaviour
                     Instantiate(combinationEffect, collision_position, combinationEffect.transform.rotation);
 
                     // Instantiate the result prefab
-                    recipe.result.transform.localScale /= 3.5f;
                     GameObject obj = Instantiate(recipe.result, collision_position, recipe.result.transform.rotation);
+                    obj.transform.localScale /= 3.5f;
                     Destroy(obj.GetComponent<ShowNameTag>());
 
                     // ToDo: Unlock spawnpoint for result
