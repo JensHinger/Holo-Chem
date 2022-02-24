@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isEndProduct: 0
   recipe:
-  - {fileID: 8858234560212260287, guid: 2003714fb87bb664e9a7e8b30040edba, type: 3}
+  - {fileID: 4847145080936711387, guid: b0fca7ddea82bd344aca19e0373cfba3, type: 3}
   - {fileID: 7605866348441900725, guid: f308413edd8dddc488ee467636af6670, type: 3}
-  result: {fileID: 0}
+  result: {fileID: 1835575742767502273, guid: bde72e51594e27744b988645c40ea379, type: 3}
