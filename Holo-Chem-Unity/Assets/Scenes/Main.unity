@@ -1265,5 +1265,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shelves
       objectReference: {fileID: 0}
+    - target: {fileID: 4355885079115505959, guid: a58e58c8d8f37d842917c51eb25d18e5, type: 3}
+      propertyPath: toSpawn
+      value: 
+      objectReference: {fileID: 2821997744699667733, guid: 362cd37a6b42451479314dd96ec0e47e, type: 3}
+    - target: {fileID: 4355885079115505959, guid: a58e58c8d8f37d842917c51eb25d18e5, type: 3}
+      propertyPath: spawnActivated
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a58e58c8d8f37d842917c51eb25d18e5, type: 3}
