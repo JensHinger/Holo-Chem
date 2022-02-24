@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afe1216307fcd2d4ca52ef87cfaa6c09, type: 3}
   m_Name: Spacestation(Spaceship+House)
   m_EditorClassIdentifier: 
-  isEndProduct: 0
+  isEndProduct: 1
   recipe:
   - {fileID: 5976331425981960656, guid: 37b103958f7317641877e9f9d6040463, type: 3}
   - {fileID: 668282242336240142, guid: 1be18b66b9551304e92c579f66f72e93, type: 3}
