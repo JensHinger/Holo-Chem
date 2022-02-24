@@ -10,8 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: afe1216307fcd2d4ca52ef87cfaa6c09, type: 3}
-  m_Name: Computer(Platine+Energy)
+  m_Name: Computer(CircuitBoard+Energy)
   m_EditorClassIdentifier: 
   isEndProduct: 0
-  recipe: []
-  result: {fileID: 0}
+  recipe:
+  - {fileID: 0}
+  - {fileID: 4080104415289573987, guid: 058779ae33e48bb4b8fa861722156005, type: 3}
+  result: {fileID: 2821997744699667733, guid: 362cd37a6b42451479314dd96ec0e47e, type: 3}

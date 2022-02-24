@@ -10,8 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: afe1216307fcd2d4ca52ef87cfaa6c09, type: 3}
-  m_Name: Platine(Oil+Metal)
+  m_Name: CircuitBoard(Oil+Metal)
   m_EditorClassIdentifier: 
   isEndProduct: 0
-  recipe: []
+  recipe:
+  - {fileID: 8858234560212260287, guid: 2003714fb87bb664e9a7e8b30040edba, type: 3}
+  - {fileID: 7605866348441900725, guid: f308413edd8dddc488ee467636af6670, type: 3}
   result: {fileID: 0}
