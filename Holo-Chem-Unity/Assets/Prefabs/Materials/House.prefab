@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: -7884050334215265863}
   - component: {fileID: -4507541053874982022}
   - component: {fileID: -6091075500173375360}
+  - component: {fileID: 9092692810667183461}
   m_Layer: 0
   m_Name: House
   m_TagString: Material
@@ -151,7 +152,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 9157964043854652673}
+  constraintsManager: {fileID: -8116042121618932047, guid: 7138e84c5fa1e8f48a77b35d2ffbd83b, type: 3}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -283,3 +284,15 @@ MonoBehaviour:
   timeToGrow: 0.5
   normalScale: 0.95
   timeToShrink: 0.5
+--- !u!114 &9092692810667183461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668282242336240142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb6ac9b484a37304da6e5076a7697ecf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

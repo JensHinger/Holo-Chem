@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public ParticleSystem badCombinationEffect;
 
     private GameObject[] spawnPoints;
+    private GameObject[] endProductSpawnPoints;
     private ShelfInteractions shelfInteractions;
 
     [Header("Audio")]
@@ -22,6 +23,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         spawnPoints = GameObject.FindGameObjectsWithTag("Respawn");
+        endProductSpawnPoints = GameObject.FindGameObjectsWithTag("EndProductSpawn");
         audioSource = gameObject.GetComponent<AudioSource>();
         shelfInteractions = shelves.GetComponent<ShelfInteractions>();
     }
@@ -83,6 +85,17 @@ public class GameManager : MonoBehaviour
                     obj.transform.localScale /= 3.5f;
                     Destroy(obj.GetComponent<ShowNameTag>());
 
+                    // Check if Result of Recipe is endproduct
+                    if (recipe.isEndProduct)
+                    {
+                        // ToDo: Call Function to handle endProduct spawn
+                        UnlockEndProduct(recipe);
+
+                        // Set the combination fail on true
+                        fail_combination = false;
+                        return;
+                    }
+
                     // ToDo: Unlock spawnpoint for result
                     foreach (GameObject spawnpoint in spawnPoints)
                     {
@@ -99,7 +112,7 @@ public class GameManager : MonoBehaviour
                     fail_combination = false;
 
                     // Stop foreach loop when combination is found
-                    break;
+                    return;
                 }
             }
 
@@ -118,4 +131,17 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    void UnlockEndProduct(CombinationRecipe recipe)
+    {
+        foreach (GameObject spawnpoint in endProductSpawnPoints)
+        {
+            SpawnManager spawnScript = spawnpoint.GetComponent<SpawnManager>();
+            string spawnObjectName = spawnScript.toSpawn.name;
+
+            if (spawnObjectName == recipe.result.name)
+            {
+                spawnScript.spawnActivated = true;
+            }
+        }
+    }
 }

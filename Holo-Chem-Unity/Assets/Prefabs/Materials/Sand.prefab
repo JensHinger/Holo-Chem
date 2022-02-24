@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 1369829825998161837}
   - component: {fileID: 8021689769637292799}
   - component: {fileID: -1004750878294116612}
+  - component: {fileID: -5429710167386189124}
   m_Layer: 0
   m_Name: Sand
   m_TagString: Material
@@ -149,7 +150,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: 3172037122464064160}
+  constraintsManager: {fileID: -8116042121618932047, guid: 7138e84c5fa1e8f48a77b35d2ffbd83b, type: 3}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -281,6 +282,18 @@ MonoBehaviour:
   timeToGrow: 0.5
   normalScale: 0.95
   timeToShrink: 0.5
+--- !u!114 &-5429710167386189124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4831703701443468214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb6ac9b484a37304da6e5076a7697ecf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7123108204120493355
 GameObject:
   m_ObjectHideFlags: 0

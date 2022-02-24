@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 2034523134}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 6.204419, z: 0}
-  m_LocalScale: {x: 0.49758658, y: 12.504642, z: 0.49758658}
+  m_LocalScale: {x: 0.49758658, y: 12.504643, z: 0.49758658}
   m_Children: []
   m_Father: {fileID: 3360372135779265765}
   m_RootOrder: 3
@@ -4297,8 +4297,9 @@ MonoBehaviour:
   toSpawn: {fileID: 668282242336240142, guid: 1be18b66b9551304e92c579f66f72e93, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885078522832661
 GameObject:
   m_ObjectHideFlags: 0
@@ -4780,8 +4781,9 @@ MonoBehaviour:
   toSpawn: {fileID: 9183289536070049747, guid: 5599377a41e90bc438603ab559d74298, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885078782194360
 GameObject:
   m_ObjectHideFlags: 0
@@ -4829,8 +4831,9 @@ MonoBehaviour:
   toSpawn: {fileID: 5323743996222914291, guid: 7623109671f06a842a205386ede7c6a6, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885078834775125
 GameObject:
   m_ObjectHideFlags: 0
@@ -4878,8 +4881,9 @@ MonoBehaviour:
   toSpawn: {fileID: 7605866348441900725, guid: f308413edd8dddc488ee467636af6670, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885078906416542
 GameObject:
   m_ObjectHideFlags: 0
@@ -5054,8 +5058,9 @@ MonoBehaviour:
   toSpawn: {fileID: 2604949741871795274, guid: fe00f8f67eaad8542a787c8b2ba11679, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079010759759
 GameObject:
   m_ObjectHideFlags: 0
@@ -5103,8 +5108,9 @@ MonoBehaviour:
   toSpawn: {fileID: 1427609424764992731, guid: 88651c44b692e164983afc222e629215, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079050674940
 GameObject:
   m_ObjectHideFlags: 0
@@ -5152,8 +5158,9 @@ MonoBehaviour:
   toSpawn: {fileID: 7738276260103206968, guid: df08ff2e12f8e9f49b72deab428c2e88, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079115505957
 GameObject:
   m_ObjectHideFlags: 0
@@ -5198,11 +5205,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c62f1ad9a1f21524e8031bf82fb02b3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toSpawn: {fileID: 4244900910931547881, guid: 6ac27c186a87e5244b86f6a348bf344f, type: 3}
-  spawnActivated: 1
+  toSpawn: {fileID: 2821997744699667733, guid: 362cd37a6b42451479314dd96ec0e47e, type: 3}
+  spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079210196241
 GameObject:
   m_ObjectHideFlags: 0
@@ -5440,8 +5448,9 @@ MonoBehaviour:
   toSpawn: {fileID: 4976291920928054825, guid: 63c22a6cf6d018e458df608839be16c2, type: 3}
   spawnActivated: 1
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079314175039
 GameObject:
   m_ObjectHideFlags: 0
@@ -5487,10 +5496,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toSpawn: {fileID: 4244900910931547881, guid: 6ac27c186a87e5244b86f6a348bf344f, type: 3}
-  spawnActivated: 1
+  spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079354025950
 GameObject:
   m_ObjectHideFlags: 0
@@ -5633,8 +5643,9 @@ MonoBehaviour:
   toSpawn: {fileID: 3874393328883236712, guid: b76bb417c375341498c665ef0a8d234d, type: 3}
   spawnActivated: 1
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079368513762
 GameObject:
   m_ObjectHideFlags: 0
@@ -5778,8 +5789,9 @@ MonoBehaviour:
   toSpawn: {fileID: 2337544384738784024, guid: d2d93879b37127447abd2b3c240ddb75, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079429432628
 GameObject:
   m_ObjectHideFlags: 0
@@ -6019,8 +6031,9 @@ MonoBehaviour:
   toSpawn: {fileID: 6656905490912687584, guid: c748ce501cc44e6478840ec51f77d2b2, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079504608828
 GameObject:
   m_ObjectHideFlags: 0
@@ -6068,8 +6081,9 @@ MonoBehaviour:
   toSpawn: {fileID: 8742126662420047401, guid: 255183b4f29b4964f8b4714ed225cebe, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079515228291
 GameObject:
   m_ObjectHideFlags: 0
@@ -6117,8 +6131,9 @@ MonoBehaviour:
   toSpawn: {fileID: 3872699910068401139, guid: 7138e84c5fa1e8f48a77b35d2ffbd83b, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079579145438
 GameObject:
   m_ObjectHideFlags: 0
@@ -6166,8 +6181,9 @@ MonoBehaviour:
   toSpawn: {fileID: 6293834667838685009, guid: eeb90e31592736c48b1614c200d93ac7, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079618359755
 GameObject:
   m_ObjectHideFlags: 0
@@ -6310,8 +6326,9 @@ MonoBehaviour:
   toSpawn: {fileID: 8932993627337745029, guid: c413d986e116a2849828335ad7d0394f, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079655533688
 GameObject:
   m_ObjectHideFlags: 0
@@ -6359,8 +6376,9 @@ MonoBehaviour:
   toSpawn: {fileID: 4080104415289573987, guid: 058779ae33e48bb4b8fa861722156005, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079742447020
 GameObject:
   m_ObjectHideFlags: 0
@@ -6408,8 +6426,9 @@ MonoBehaviour:
   toSpawn: {fileID: 8671917032944844639, guid: a0706a1987460444da341fd02958d633, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079760218047
 GameObject:
   m_ObjectHideFlags: 0
@@ -6457,8 +6476,9 @@ MonoBehaviour:
   toSpawn: {fileID: 4004481706063428666, guid: 944f3b8dc70a028478365484f1f9462c, type: 3}
   spawnActivated: 1
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079782351158
 GameObject:
   m_ObjectHideFlags: 0
@@ -6506,8 +6526,9 @@ MonoBehaviour:
   toSpawn: {fileID: 8858234560212260287, guid: 2003714fb87bb664e9a7e8b30040edba, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079882655769
 GameObject:
   m_ObjectHideFlags: 0
@@ -6840,8 +6861,9 @@ MonoBehaviour:
   toSpawn: {fileID: 4415519799432980906, guid: 3a9fd01b67d6c4f4391a3ad455a48cee, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079977306764
 GameObject:
   m_ObjectHideFlags: 0
@@ -6852,7 +6874,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4355885079553000251}
   m_Layer: 0
-  m_Name: Shelf_1
+  m_Name: BackShelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6865,9 +6887,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4355885079977306764}
-  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000014603136}
-  m_LocalPosition: {x: 0.29904956, y: 9.580671, z: -0.00049760996}
-  m_LocalScale: {x: 0.12689215, y: 3.1888733, z: 0.13434838}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000014305114}
+  m_LocalPosition: {x: 0.29904956, y: 9.580671, z: -0.0004976396}
+  m_LocalScale: {x: 0.1268922, y: 3.1888735, z: 0.1268922}
   m_Children:
   - {fileID: 4355885078522832660}
   - {fileID: 4355885079882655768}
@@ -7004,7 +7026,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4355885079540618147}
   m_Layer: 0
-  m_Name: shelf
+  m_Name: FrontShelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7018,8 +7040,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4355885080058164409}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.28810272, y: 9.580671, z: -0.00049755065}
-  m_LocalScale: {x: 0.1268922, y: 3.1888733, z: 0.13434842}
+  m_LocalPosition: {x: -0.28810272, y: 9.580671, z: -0.0004975803}
+  m_LocalScale: {x: 0.1268922, y: 3.1888735, z: 0.1268922}
   m_Children:
   - {fileID: 4355885079618359754}
   - {fileID: 4355885079354025937}
@@ -7097,8 +7119,9 @@ MonoBehaviour:
   toSpawn: {fileID: 4831703701443468214, guid: 47060360e5b5efd49941f95189756a04, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885080141255396
 GameObject:
   m_ObjectHideFlags: 0
@@ -7146,8 +7169,9 @@ MonoBehaviour:
   toSpawn: {fileID: 3423576936056282949, guid: fce4c3f680dcb204bb3959fd385cdb1b, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885080146759129
 GameObject:
   m_ObjectHideFlags: 0
@@ -7195,8 +7219,9 @@ MonoBehaviour:
   toSpawn: {fileID: 3855583884114067963, guid: 076e2c66c165b1f408cde365e917e7f3, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885080156275499
 GameObject:
   m_ObjectHideFlags: 0
@@ -7241,11 +7266,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c62f1ad9a1f21524e8031bf82fb02b3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toSpawn: {fileID: 4244900910931547881, guid: 6ac27c186a87e5244b86f6a348bf344f, type: 3}
-  spawnActivated: 1
+  toSpawn: {fileID: 960565784302008869, guid: fdc517c5ba44cfd4980d6379a88e1804, type: 3}
+  spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885080233846547
 GameObject:
   m_ObjectHideFlags: 0
@@ -7293,8 +7319,9 @@ MonoBehaviour:
   toSpawn: {fileID: 5976331425981960656, guid: 37b103958f7317641877e9f9d6040463, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885080237517292
 GameObject:
   m_ObjectHideFlags: 0
@@ -7438,8 +7465,9 @@ MonoBehaviour:
   toSpawn: {fileID: 7188837116034520689, guid: f831af65752f10041af5d9736feaa25e, type: 3}
   spawnActivated: 1
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885080275619705
 GameObject:
   m_ObjectHideFlags: 0
@@ -7487,8 +7515,9 @@ MonoBehaviour:
   toSpawn: {fileID: 1611019806562790286, guid: 08e8df276bc3b7a4ba1db6ef2d8b298c, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885080419555009
 GameObject:
   m_ObjectHideFlags: 0
@@ -7536,8 +7565,9 @@ MonoBehaviour:
   toSpawn: {fileID: 7709651449108385188, guid: 50dd6cae77883ae4e861e0091a7d8fef, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885080468696939
 GameObject:
   m_ObjectHideFlags: 0
@@ -7585,8 +7615,9 @@ MonoBehaviour:
   toSpawn: {fileID: 5194953740587359968, guid: 112fae6ca748c664fbaeb34ba96d2990, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885080545620090
 GameObject:
   m_ObjectHideFlags: 0
@@ -7631,11 +7662,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c62f1ad9a1f21524e8031bf82fb02b3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toSpawn: {fileID: 960565784302008869, guid: fdc517c5ba44cfd4980d6379a88e1804, type: 3}
+  toSpawn: {fileID: 4847145080936711387, guid: b0fca7ddea82bd344aca19e0373cfba3, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
+  spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885080553864125
 GameObject:
   m_ObjectHideFlags: 0

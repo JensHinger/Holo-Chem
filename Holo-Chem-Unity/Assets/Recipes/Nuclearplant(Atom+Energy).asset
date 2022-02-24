@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe1216307fcd2d4ca52ef87cfaa6c09, type: 3}
+  m_Name: Nuclearplant(Atom+Energy)
+  m_EditorClassIdentifier: 
+  isEndProduct: 1
+  recipe:
+  - {fileID: 8932993627337745029, guid: c413d986e116a2849828335ad7d0394f, type: 3}
+  - {fileID: 4080104415289573987, guid: 058779ae33e48bb4b8fa861722156005, type: 3}
+  result: {fileID: 2646828681782690070, guid: 1f7f12e777b4c684988ecba329d382d4, type: 3}

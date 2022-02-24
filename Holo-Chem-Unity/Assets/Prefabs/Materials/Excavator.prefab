@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 9212007246016888466}
   - component: {fileID: 1631764079306548714}
   - component: {fileID: 5957079859424079733}
+  - component: {fileID: 5054242624209477438}
   m_Layer: 0
   m_Name: Excavator
   m_TagString: Material
@@ -68,16 +69,16 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2155125943279989275, guid: f720c43ecf2befa47b529d21b4871228, type: 3}
-  - {fileID: 1891476816852595737, guid: f720c43ecf2befa47b529d21b4871228, type: 3}
-  - {fileID: 500464575234013603, guid: f720c43ecf2befa47b529d21b4871228, type: 3}
+  - {fileID: 2100000, guid: d902beb904008af4498732db05182001, type: 2}
+  - {fileID: 2100000, guid: d902beb904008af4498732db05182001, type: 2}
+  - {fileID: 2100000, guid: 610df6db10e29f54ea4328a59569cff5, type: 2}
   - {fileID: -6271897200390792742, guid: f720c43ecf2befa47b529d21b4871228, type: 3}
-  - {fileID: -5990142131918859844, guid: f720c43ecf2befa47b529d21b4871228, type: 3}
-  - {fileID: 3181336473119794983, guid: f720c43ecf2befa47b529d21b4871228, type: 3}
-  - {fileID: -8978598749037407868, guid: f720c43ecf2befa47b529d21b4871228, type: 3}
-  - {fileID: 3914178525444303819, guid: f720c43ecf2befa47b529d21b4871228, type: 3}
-  - {fileID: 2352983739780196468, guid: f720c43ecf2befa47b529d21b4871228, type: 3}
-  - {fileID: -6478536213147159724, guid: f720c43ecf2befa47b529d21b4871228, type: 3}
+  - {fileID: 2100000, guid: d902beb904008af4498732db05182001, type: 2}
+  - {fileID: 2100000, guid: d902beb904008af4498732db05182001, type: 2}
+  - {fileID: 2100000, guid: f788857671f61fc4a877205002d6c34a, type: 2}
+  - {fileID: 2100000, guid: f788857671f61fc4a877205002d6c34a, type: 2}
+  - {fileID: 2100000, guid: f788857671f61fc4a877205002d6c34a, type: 2}
+  - {fileID: 2100000, guid: 610df6db10e29f54ea4328a59569cff5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -288,3 +289,15 @@ MonoBehaviour:
   timeToGrow: 0.5
   normalScale: 0.95
   timeToShrink: 0.5
+--- !u!114 &5054242624209477438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960565784302008869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb6ac9b484a37304da6e5076a7697ecf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

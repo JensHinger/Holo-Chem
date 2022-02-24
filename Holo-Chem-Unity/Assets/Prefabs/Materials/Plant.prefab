@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: -7586455072867194055}
   - component: {fileID: 4318040036054939618}
   - component: {fileID: -6454827102485334298}
+  - component: {fileID: -4109023547905379032}
   m_Layer: 0
   m_Name: Plant
   m_TagString: Material
@@ -282,3 +283,15 @@ MonoBehaviour:
   timeToGrow: 0.5
   normalScale: 0.95
   timeToShrink: 0.5
+--- !u!114 &-4109023547905379032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7738276260103206968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb6ac9b484a37304da6e5076a7697ecf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
