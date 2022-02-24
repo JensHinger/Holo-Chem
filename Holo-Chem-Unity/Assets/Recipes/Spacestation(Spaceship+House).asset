@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe1216307fcd2d4ca52ef87cfaa6c09, type: 3}
+  m_Name: Spacestation(Spaceship+House)
+  m_EditorClassIdentifier: 
+  isEndProduct: 0
+  recipe:
+  - {fileID: 5976331425981960656, guid: 37b103958f7317641877e9f9d6040463, type: 3}
+  - {fileID: 668282242336240142, guid: 1be18b66b9551304e92c579f66f72e93, type: 3}
+  result: {fileID: 5904351148328891635, guid: 3a6bac2a066929743acc274827b3882b, type: 3}
