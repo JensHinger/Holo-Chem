@@ -951,7 +951,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1562223139178883540, guid: f14541ba973439448b6198858326b2d9, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
-      value: 15
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1562223139178883540, guid: f14541ba973439448b6198858326b2d9, type: 3}
       propertyPath: InitialModule.startSpeed.minScalar
@@ -975,7 +975,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1562223139178883540, guid: f14541ba973439448b6198858326b2d9, type: 3}
       propertyPath: InitialModule.startLifetime.minScalar
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1562223139178883540, guid: f14541ba973439448b6198858326b2d9, type: 3}
       propertyPath: InitialModule.startLifetime.minMaxState
