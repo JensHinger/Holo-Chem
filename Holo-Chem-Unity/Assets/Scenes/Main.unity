@@ -273,6 +273,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1525c303ed9388245875bf0177149fb2, type: 2}
   - {fileID: 11400000, guid: 89dab748b23797d49b3c089e7d68db19, type: 2}
   - {fileID: 11400000, guid: adeb9c3c7a29b784a9fd01b49effaca8, type: 2}
+  - {fileID: 11400000, guid: 47ad835d4417ab6449e0a34fdb586940, type: 2}
+  - {fileID: 11400000, guid: f796e3743597b5b4ba3846b6e869bd5c, type: 2}
+  - {fileID: 11400000, guid: 9fefbb18384c695488b695072c752916, type: 2}
   shelves: {fileID: 69809212}
   combinationEffect: {fileID: 8666432253138913347, guid: 2097a1a8e769c8441a4814e4e57b5a90, type: 3}
   badCombinationEffect: {fileID: 8666432253138913347, guid: d879d4f750f53ff4e9dfa04530b7e6c9, type: 3}
@@ -762,10 +765,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 884346795, guid: 94a0819a9bd58bf43baef98bef3a8db8, type: 3}
+      propertyPath: spawnActivated
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 959087635, guid: 94a0819a9bd58bf43baef98bef3a8db8, type: 3}
       propertyPath: toSpawn
       value: 
       objectReference: {fileID: 6802905425077581576, guid: 681e31e4460e5e84b9a4e08287ac9dd9, type: 3}
+    - target: {fileID: 959087635, guid: 94a0819a9bd58bf43baef98bef3a8db8, type: 3}
+      propertyPath: spawnActivated
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1299608626, guid: 94a0819a9bd58bf43baef98bef3a8db8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1299608626, guid: 94a0819a9bd58bf43baef98bef3a8db8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.28
+      objectReference: {fileID: 0}
     - target: {fileID: 1299608626, guid: 94a0819a9bd58bf43baef98bef3a8db8, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.38104063
@@ -777,6 +796,14 @@ PrefabInstance:
     - target: {fileID: 1299608626, guid: 94a0819a9bd58bf43baef98bef3a8db8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -135.204
+      objectReference: {fileID: 0}
+    - target: {fileID: 1299608627, guid: 94a0819a9bd58bf43baef98bef3a8db8, type: 3}
+      propertyPath: spawnActivated
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1706747833, guid: 94a0819a9bd58bf43baef98bef3a8db8, type: 3}
+      propertyPath: spawnActivated
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 482206809648876741, guid: 94a0819a9bd58bf43baef98bef3a8db8, type: 3}
       propertyPath: m_Name
