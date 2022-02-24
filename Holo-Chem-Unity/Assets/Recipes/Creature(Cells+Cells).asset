@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afe1216307fcd2d4ca52ef87cfaa6c09, type: 3}
   m_Name: Creature(Cells+Cells)
   m_EditorClassIdentifier: 
-  isEndProduct: 0
+  isEndProduct: 1
   recipe:
   - {fileID: 6293834667838685009, guid: eeb90e31592736c48b1614c200d93ac7, type: 3}
   - {fileID: 6293834667838685009, guid: eeb90e31592736c48b1614c200d93ac7, type: 3}
