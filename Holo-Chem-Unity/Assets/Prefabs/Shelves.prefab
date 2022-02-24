@@ -6874,7 +6874,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4355885079553000251}
   m_Layer: 0
-  m_Name: Shelf_1
+  m_Name: BackShelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7026,7 +7026,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4355885079540618147}
   m_Layer: 0
-  m_Name: shelf
+  m_Name: FrontShelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
