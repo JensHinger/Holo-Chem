@@ -14,13 +14,15 @@ GameObject:
   - component: {fileID: 1803854021030836659}
   - component: {fileID: 677151709340178582}
   - component: {fileID: 1907809695598090820}
+  - component: {fileID: 7966537480277214173}
+  - component: {fileID: 7966537480277214171}
   m_Layer: 0
   m_Name: Sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2920875214803945738
 Transform:
   m_ObjectHideFlags: 0
@@ -63,7 +65,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 4218315251724804968, guid: 6910a7cc988a1954cb62a76fbaee751a, type: 3}
+  - {fileID: 2100000, guid: 6b89d6347042cca4d883fec529a6fef4, type: 2}
   - {fileID: -8353058802397988234, guid: 6910a7cc988a1954cb62a76fbaee751a, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -134,13 +136,13 @@ MonoBehaviour:
   onManipulationStarted:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2576859589447357360}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1907809695598090820}
+        m_TargetAssemblyTypeName: DestroyObject, Assembly-CSharp
+        m_MethodName: DestroySelf
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -167,6 +169,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5298085d92b058d46b5a846821c30428, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &7966537480277214173
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2576859589447357360}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.9122045, y: 3.0803912, z: 0.17914638}
+  m_Center: {x: -0.0031505823, y: 1.5390304, z: -0.028027093}
+--- !u!114 &7966537480277214171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2576859589447357360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5afd5316c63705643b3daba5a6e923bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTetherWhenManipulating: 0
+  IsBoundsHandles: 0
 --- !u!1 &6422028975463455144
 GameObject:
   m_ObjectHideFlags: 0
