@@ -69,7 +69,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -116425275035135651, guid: 2368ebe70ac22644ca5ab033dafe7d43, type: 3}
+  - {fileID: 2100000, guid: 5970e9820347dee4fbcbe4d2a19bd01c, type: 2}
   - {fileID: -4973734387028869240, guid: 2368ebe70ac22644ca5ab033dafe7d43, type: 3}
   - {fileID: 2166504313796567858, guid: 2368ebe70ac22644ca5ab033dafe7d43, type: 3}
   m_StaticBatchInfo:
@@ -150,7 +150,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: -8116042121618932047, guid: 7138e84c5fa1e8f48a77b35d2ffbd83b, type: 3}
+  constraintsManager: {fileID: -5310259364991975600}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:

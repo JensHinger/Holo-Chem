@@ -69,11 +69,11 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5341791593293856400, guid: 674066ae65fe76e4ebcc2fb86038b0ce, type: 3}
-  - {fileID: 3398073514908505954, guid: 674066ae65fe76e4ebcc2fb86038b0ce, type: 3}
+  - {fileID: 2100000, guid: f371c42949bc9b6488ca618e7a5b6114, type: 2}
+  - {fileID: 2100000, guid: 91b9ad28a5417b54b994e4a8009a284b, type: 2}
   - {fileID: 5689655029148397964, guid: 674066ae65fe76e4ebcc2fb86038b0ce, type: 3}
-  - {fileID: 3389025099844865152, guid: 674066ae65fe76e4ebcc2fb86038b0ce, type: 3}
-  - {fileID: 1550975326256456482, guid: 674066ae65fe76e4ebcc2fb86038b0ce, type: 3}
+  - {fileID: 2100000, guid: dd0bf264eaa8c0e43b20e4d18c7411d7, type: 2}
+  - {fileID: 2100000, guid: 183c2d675b28ffa48bdb6735f42f7685, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -152,7 +152,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: -8116042121618932047, guid: 7138e84c5fa1e8f48a77b35d2ffbd83b, type: 3}
+  constraintsManager: {fileID: 9157964043854652673}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
