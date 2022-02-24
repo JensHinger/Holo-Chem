@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afe1216307fcd2d4ca52ef87cfaa6c09, type: 3}
   m_Name: Quantumcomputer(Computer+Atom)
   m_EditorClassIdentifier: 
-  isEndProduct: 0
+  isEndProduct: 1
   recipe:
   - {fileID: 8932993627337745029, guid: c413d986e116a2849828335ad7d0394f, type: 3}
   - {fileID: 2821997744699667733, guid: 362cd37a6b42451479314dd96ec0e47e, type: 3}
