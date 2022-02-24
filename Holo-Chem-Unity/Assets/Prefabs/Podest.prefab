@@ -190,7 +190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c62f1ad9a1f21524e8031bf82fb02b3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toSpawn: {fileID: 2646828681782690070, guid: 1f7f12e777b4c684988ecba329d382d4, type: 3}
+  toSpawn: {fileID: 5904351148328891635, guid: 3a6bac2a066929743acc274827b3882b, type: 3}
   spawnActivated: 1
   gizmoLoc: {x: 0, y: 0, z: 0}
   spawnConstraint: 1
