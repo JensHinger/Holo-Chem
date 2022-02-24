@@ -101,6 +101,7 @@ GameObject:
   - component: {fileID: 1205074286127822323}
   - component: {fileID: -3527783934067618236}
   - component: {fileID: 4994741653641590313}
+  - component: {fileID: -5763778928632533400}
   m_Layer: 0
   m_Name: Plasma
   m_TagString: Material
@@ -231,7 +232,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: -4212239280615865227}
+  constraintsManager: {fileID: -8116042121618932047, guid: 7138e84c5fa1e8f48a77b35d2ffbd83b, type: 3}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -363,3 +364,15 @@ MonoBehaviour:
   timeToGrow: 0.5
   normalScale: 0.95
   timeToShrink: 0.5
+--- !u!114 &-5763778928632533400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9183289536070049747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb6ac9b484a37304da6e5076a7697ecf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

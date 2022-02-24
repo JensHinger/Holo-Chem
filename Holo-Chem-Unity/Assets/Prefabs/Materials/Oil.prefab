@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 2916615086439964910}
   - component: {fileID: -2061930278308545507}
   - component: {fileID: -5874412482485929284}
+  - component: {fileID: -4554709091206856148}
   m_Layer: 0
   m_Name: Oil
   m_TagString: Material
@@ -150,7 +151,7 @@ MonoBehaviour:
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
-  constraintsManager: {fileID: -5842827071513176270}
+  constraintsManager: {fileID: -8116042121618932047, guid: 7138e84c5fa1e8f48a77b35d2ffbd83b, type: 3}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
     m_PersistentCalls:
@@ -298,3 +299,15 @@ MonoBehaviour:
   timeToGrow: 0.5
   normalScale: 0.95
   timeToShrink: 0.5
+--- !u!114 &-4554709091206856148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8858234560212260287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb6ac9b484a37304da6e5076a7697ecf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

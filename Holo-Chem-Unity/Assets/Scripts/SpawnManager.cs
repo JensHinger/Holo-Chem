@@ -8,6 +8,7 @@ public class SpawnManager : MonoBehaviour
     public GameObject toSpawn;
     public bool spawnActivated = false;
     public Vector3 gizmoLoc;
+    public int spawnConstraint = 2;
 
     [SerializeField] private float sphereOffset = 0.2f;
     [SerializeField] private float sphereSize = 0.4f;
@@ -33,7 +34,7 @@ public class SpawnManager : MonoBehaviour
 
         var hitColliders = Physics.OverlapSphere(spawn, sphereSize);
 
-        if(hitColliders.Length == 2)
+        if(hitColliders.Length == spawnConstraint)
         {
             SpawnObject();
         }
