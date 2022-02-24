@@ -762,6 +762,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 959087635, guid: 94a0819a9bd58bf43baef98bef3a8db8, type: 3}
+      propertyPath: toSpawn
+      value: 
+      objectReference: {fileID: 6802905425077581576, guid: 681e31e4460e5e84b9a4e08287ac9dd9, type: 3}
+    - target: {fileID: 1299608626, guid: 94a0819a9bd58bf43baef98bef3a8db8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.38104063
+      objectReference: {fileID: 0}
+    - target: {fileID: 1299608626, guid: 94a0819a9bd58bf43baef98bef3a8db8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.9245583
+      objectReference: {fileID: 0}
+    - target: {fileID: 1299608626, guid: 94a0819a9bd58bf43baef98bef3a8db8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -135.204
+      objectReference: {fileID: 0}
     - target: {fileID: 482206809648876741, guid: 94a0819a9bd58bf43baef98bef3a8db8, type: 3}
       propertyPath: m_Name
       value: Podest
