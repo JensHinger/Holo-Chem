@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: afe1216307fcd2d4ca52ef87cfaa6c09, type: 3}
-  m_Name: Computer(CircuitBoard+Energy)
+  m_Name: Quantumcomputer(Computer+Atom)
   m_EditorClassIdentifier: 
   isEndProduct: 0
   recipe:
-  - {fileID: 1835575742767502273, guid: bde72e51594e27744b988645c40ea379, type: 3}
-  - {fileID: 4080104415289573987, guid: 058779ae33e48bb4b8fa861722156005, type: 3}
-  result: {fileID: 2821997744699667733, guid: 362cd37a6b42451479314dd96ec0e47e, type: 3}
+  - {fileID: 8932993627337745029, guid: c413d986e116a2849828335ad7d0394f, type: 3}
+  - {fileID: 2821997744699667733, guid: 362cd37a6b42451479314dd96ec0e47e, type: 3}
+  result: {fileID: 6802905425077581576, guid: 681e31e4460e5e84b9a4e08287ac9dd9, type: 3}
