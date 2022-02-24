@@ -10,8 +10,11 @@ public class SpawnManager : MonoBehaviour
     public Vector3 gizmoLoc;
     public int spawnConstraint = 2;
 
+
     [SerializeField] private float sphereOffset = 0.2f;
     [SerializeField] private float sphereSize = 0.4f;
+
+    private float spawnRotationOffset = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -19,9 +22,15 @@ public class SpawnManager : MonoBehaviour
         spawn = gameObject.transform.position;
         spawn = new Vector3(spawn.x, spawn.y + sphereOffset, spawn.z);
 
+        GameObject par = transform.parent.gameObject;
+        if(par.name == "BackShelf")
+        {
+            spawnRotationOffset = 180;
+        }
+
         gizmoLoc = gameObject.transform.position;
         gizmoLoc = new Vector3(gizmoLoc.x, gizmoLoc.y + sphereOffset, gizmoLoc.z);
-        SpawnObject();
+        SpawnObject(0);
     }
 
     // Update is called once per frame
@@ -36,7 +45,7 @@ public class SpawnManager : MonoBehaviour
 
         if(hitColliders.Length == spawnConstraint)
         {
-            SpawnObject();
+            SpawnObject(spawnRotationOffset);
         }
     }
 
@@ -46,11 +55,14 @@ public class SpawnManager : MonoBehaviour
         Gizmos.DrawWireSphere(gizmoLoc, sphereSize);
     }
 
-    void SpawnObject()
+    void SpawnObject(float extraRotation)
     {
+        Quaternion spawnRotation = toSpawn.transform.rotation;
+        spawnRotation *= Quaternion.Euler(0, extraRotation, 0);
+
         if (spawnActivated)
         {
-            Object.Instantiate(toSpawn, spawn, toSpawn.transform.rotation, gameObject.transform);
+            Object.Instantiate(toSpawn, spawn, spawnRotation, gameObject.transform);
         }
     }
 

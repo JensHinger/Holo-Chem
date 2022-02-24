@@ -5496,7 +5496,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toSpawn: {fileID: 4244900910931547881, guid: 6ac27c186a87e5244b86f6a348bf344f, type: 3}
-  spawnActivated: 1
+  spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
   spawnConstraint: 2
   sphereOffset: 0.2
@@ -6874,7 +6874,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4355885079553000251}
   m_Layer: 0
-  m_Name: Shelf_1
+  m_Name: BackShelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7026,7 +7026,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4355885079540618147}
   m_Layer: 0
-  m_Name: shelf
+  m_Name: FrontShelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7266,8 +7266,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c62f1ad9a1f21524e8031bf82fb02b3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toSpawn: {fileID: 4244900910931547881, guid: 6ac27c186a87e5244b86f6a348bf344f, type: 3}
-  spawnActivated: 1
+  toSpawn: {fileID: 960565784302008869, guid: fdc517c5ba44cfd4980d6379a88e1804, type: 3}
+  spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
   spawnConstraint: 2
   sphereOffset: 0.2
@@ -7662,7 +7662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c62f1ad9a1f21524e8031bf82fb02b3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toSpawn: {fileID: 960565784302008869, guid: fdc517c5ba44cfd4980d6379a88e1804, type: 3}
+  toSpawn: {fileID: 4847145080936711387, guid: b0fca7ddea82bd344aca19e0373cfba3, type: 3}
   spawnActivated: 0
   gizmoLoc: {x: 0, y: 0, z: 0}
   spawnConstraint: 2
