@@ -83,6 +83,17 @@ public class GameManager : MonoBehaviour
                     obj.transform.localScale /= 3.5f;
                     Destroy(obj.GetComponent<ShowNameTag>());
 
+                    // Check if Result of Recipe is endproduct
+                    if (recipe.isEndProduce)
+                    {
+                        // ToDo: Call Function to handle endproduce spawn
+
+
+                        // Set the combination fail on true
+                        fail_combination = false;
+                        return;
+                    }
+
                     // ToDo: Unlock spawnpoint for result
                     foreach (GameObject spawnpoint in spawnPoints)
                     {

@@ -5,6 +5,7 @@ using UnityEngine;
 [CreateAssetMenu]
 public class CombinationRecipe : ScriptableObject
 {
+    public bool isEndProduce = false;
     public GameObject[] recipe;
     public GameObject result;
 }
