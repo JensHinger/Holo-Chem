@@ -4299,7 +4299,7 @@ MonoBehaviour:
   gizmoLoc: {x: 0, y: 0, z: 0}
   spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885078522832661
 GameObject:
   m_ObjectHideFlags: 0
@@ -4783,7 +4783,7 @@ MonoBehaviour:
   gizmoLoc: {x: 0, y: 0, z: 0}
   spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885078782194360
 GameObject:
   m_ObjectHideFlags: 0
@@ -5110,7 +5110,7 @@ MonoBehaviour:
   gizmoLoc: {x: 0, y: 0, z: 0}
   spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079050674940
 GameObject:
   m_ObjectHideFlags: 0
@@ -5210,7 +5210,7 @@ MonoBehaviour:
   gizmoLoc: {x: 0, y: 0, z: 0}
   spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079210196241
 GameObject:
   m_ObjectHideFlags: 0
@@ -5500,7 +5500,7 @@ MonoBehaviour:
   gizmoLoc: {x: 0, y: 0, z: 0}
   spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079354025950
 GameObject:
   m_ObjectHideFlags: 0
@@ -6033,7 +6033,7 @@ MonoBehaviour:
   gizmoLoc: {x: 0, y: 0, z: 0}
   spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079504608828
 GameObject:
   m_ObjectHideFlags: 0
@@ -6133,7 +6133,7 @@ MonoBehaviour:
   gizmoLoc: {x: 0, y: 0, z: 0}
   spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079579145438
 GameObject:
   m_ObjectHideFlags: 0
@@ -6183,7 +6183,7 @@ MonoBehaviour:
   gizmoLoc: {x: 0, y: 0, z: 0}
   spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079618359755
 GameObject:
   m_ObjectHideFlags: 0
@@ -6328,7 +6328,7 @@ MonoBehaviour:
   gizmoLoc: {x: 0, y: 0, z: 0}
   spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079655533688
 GameObject:
   m_ObjectHideFlags: 0
@@ -6863,7 +6863,7 @@ MonoBehaviour:
   gizmoLoc: {x: 0, y: 0, z: 0}
   spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885079977306764
 GameObject:
   m_ObjectHideFlags: 0
@@ -7171,7 +7171,7 @@ MonoBehaviour:
   gizmoLoc: {x: 0, y: 0, z: 0}
   spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885080146759129
 GameObject:
   m_ObjectHideFlags: 0
@@ -7271,7 +7271,7 @@ MonoBehaviour:
   gizmoLoc: {x: 0, y: 0, z: 0}
   spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885080233846547
 GameObject:
   m_ObjectHideFlags: 0
@@ -7321,7 +7321,7 @@ MonoBehaviour:
   gizmoLoc: {x: 0, y: 0, z: 0}
   spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885080237517292
 GameObject:
   m_ObjectHideFlags: 0
@@ -7567,7 +7567,7 @@ MonoBehaviour:
   gizmoLoc: {x: 0, y: 0, z: 0}
   spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885080468696939
 GameObject:
   m_ObjectHideFlags: 0
@@ -7617,7 +7617,7 @@ MonoBehaviour:
   gizmoLoc: {x: 0, y: 0, z: 0}
   spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885080545620090
 GameObject:
   m_ObjectHideFlags: 0
@@ -7667,7 +7667,7 @@ MonoBehaviour:
   gizmoLoc: {x: 0, y: 0, z: 0}
   spawnConstraint: 2
   sphereOffset: 0.2
-  sphereSize: 0.3
+  sphereSize: 0.28
 --- !u!1 &4355885080553864125
 GameObject:
   m_ObjectHideFlags: 0
