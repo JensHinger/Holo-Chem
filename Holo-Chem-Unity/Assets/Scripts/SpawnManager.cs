@@ -15,6 +15,7 @@ public class SpawnManager : MonoBehaviour
     [SerializeField] private float sphereSize = 0.4f;
 
     private float spawnRotationOffset = 0;
+    private bool firstSpawn = true;
 
     // Start is called before the first frame update
     void Start()
@@ -30,7 +31,7 @@ public class SpawnManager : MonoBehaviour
 
         gizmoLoc = gameObject.transform.position;
         gizmoLoc = new Vector3(gizmoLoc.x, gizmoLoc.y + sphereOffset, gizmoLoc.z);
-        SpawnObject(0);
+
     }
 
     // Update is called once per frame
@@ -43,7 +44,7 @@ public class SpawnManager : MonoBehaviour
 
         var hitColliders = Physics.OverlapSphere(spawn, sphereSize);
 
-        if(hitColliders.Length == spawnConstraint)
+        if(hitColliders.Length == spawnConstraint && spawnActivated)
         {
             SpawnObject(spawnRotationOffset);
         }
@@ -58,12 +59,17 @@ public class SpawnManager : MonoBehaviour
     void SpawnObject(float extraRotation)
     {
         Quaternion spawnRotation = toSpawn.transform.rotation;
-        spawnRotation *= Quaternion.Euler(0, extraRotation, 0);
 
-        if (spawnActivated)
+        if(firstSpawn)
         {
             Object.Instantiate(toSpawn, spawn, spawnRotation, gameObject.transform);
+            firstSpawn = false;
+            return;
         }
+
+        spawnRotation *= Quaternion.Euler(0, extraRotation, 0);
+        Object.Instantiate(toSpawn, spawn, spawnRotation, gameObject.transform);
+      
     }
 
 }

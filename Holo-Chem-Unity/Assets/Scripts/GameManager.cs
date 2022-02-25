@@ -80,11 +80,6 @@ public class GameManager : MonoBehaviour
                     // Instantiate and Play combinationEffect
                     Instantiate(combinationEffect, collision_position, combinationEffect.transform.rotation);
 
-                    // Instantiate the result prefab
-                    GameObject obj = Instantiate(recipe.result, collision_position, recipe.result.transform.rotation);
-                    obj.transform.localScale /= 3.5f;
-                    Destroy(obj.GetComponent<ShowNameTag>());
-
                     // Check if Result of Recipe is endproduct
                     if (recipe.isEndProduct)
                     {
@@ -96,7 +91,9 @@ public class GameManager : MonoBehaviour
                         return;
                     }
 
-                    // ToDo: Unlock spawnpoint for result
+                    float spawnRotationOffset = 0;
+
+                    // Unlock spawnpoint for result
                     foreach (GameObject spawnpoint in spawnPoints)
                     {
                         SpawnManager spawnScript = spawnpoint.GetComponent<SpawnManager>();
@@ -105,10 +102,23 @@ public class GameManager : MonoBehaviour
                         if (spawnObjectName == recipe.result.name)
                         {
                             spawnScript.spawnActivated = true;
+
+                            if(spawnpoint.transform.parent.gameObject.name == "BackShelf")
+                            {
+                                spawnRotationOffset = 180;
+                            }
                         }
                     }
 
-                    // Set the combination fail on true
+                    Quaternion spawnRotation = recipe.result.transform.rotation;
+                    spawnRotation *= Quaternion.Euler(0, spawnRotationOffset, 0);
+
+                    // Instantiate the result prefab
+                    GameObject obj = Instantiate(recipe.result, collision_position, spawnRotation);
+                    obj.transform.localScale /= 3.5f;
+                    Destroy(obj.GetComponent<ShowNameTag>());
+
+                    // Set the combination fail to false
                     fail_combination = false;
 
                     // Stop foreach loop when combination is found
