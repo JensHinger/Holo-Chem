@@ -102,5 +102,29 @@
   {
     "result": "Spacestation",
     "base" : ["House", "Spacecraft"]
+  },
+  {
+    "result": "Circuit Board",
+    "base" : ["Plastic", "Metal"]
+  },
+  {
+    "result": "Computer",
+    "base" : ["Circuit Board", "Energy"]
+  },
+  {
+    "result": "Plastic",
+    "base" : ["Oil", "Fire"]
+  },
+  {
+    "result": "Quantum Computer",
+    "base" : ["Computer", "Atoms"]
+  },
+  {
+    "result": "Creature",
+    "base" : ["Cells", "Cells"]
+  },
+  {
+    "result": "NuclearPowerPlant",
+    "base" : ["Atoms", "Energy"]
   }
 ]
