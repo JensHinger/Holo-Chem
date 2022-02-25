@@ -2548,6 +2548,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6b89d6347042cca4d883fec529a6fef4, type: 2}
+    - target: {fileID: 4859826420836340821, guid: 22df8eabe62a0cd45bf4cc83878fc0e7, type: 3}
+      propertyPath: m_text
+      value: "Welcome to HOLO-CHEM!\n\nIn the world of HOLO-CHEM you are the creator
+        of your own world.\n\nYou start the game with the 4 basic elements earth,
+        water, stone and air on your shelf. \nTo start the game, grab elements off
+        the shelf and combine them to create new Materials.\nTo win the game you
+        must unlock all 4 target elements.\nKeep in mind that the shelf has a backside
+        which you can access by interacting with the podium the shelves are placed
+        on.\n\nInteract with this sign to make it disappear. Happy puzzling!  "
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22df8eabe62a0cd45bf4cc83878fc0e7, type: 3}
 --- !u!114 &5569839508915212395 stripped
