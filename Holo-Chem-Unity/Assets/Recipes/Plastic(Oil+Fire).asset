@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: Plastic(Oil+Fire)
   m_EditorClassIdentifier: 
   isEndProduct: 0
-  recipe: []
-  result: {fileID: 0}
+  recipe:
+  - {fileID: 8858234560212260287, guid: 2003714fb87bb664e9a7e8b30040edba, type: 3}
+  - {fileID: 2604949741871795274, guid: fe00f8f67eaad8542a787c8b2ba11679, type: 3}
+  result: {fileID: 4847145080936711387, guid: b0fca7ddea82bd344aca19e0373cfba3, type: 3}
