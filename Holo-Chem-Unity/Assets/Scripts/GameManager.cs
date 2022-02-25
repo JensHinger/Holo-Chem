@@ -86,6 +86,11 @@ public class GameManager : MonoBehaviour
                         // ToDo: Call Function to handle endProduct spawn
                         UnlockEndProduct(recipe);
 
+                        // Instantiate the result prefab
+                        GameObject endObj = Instantiate(recipe.result, collision_position, recipe.result.transform.rotation);
+                        endObj.transform.localScale /= 3.5f;
+                        Destroy(endObj.GetComponent<ShowNameTag>());
+
                         // Set the combination fail on true
                         fail_combination = false;
                         return;
