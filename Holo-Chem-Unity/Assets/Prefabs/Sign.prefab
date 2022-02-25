@@ -22,7 +22,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2920875214803945738
 Transform:
   m_ObjectHideFlags: 0
@@ -223,14 +223,14 @@ RectTransform:
   m_GameObject: {fileID: 6422028975463455144}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0.08}
-  m_LocalScale: {x: 1, y: 0.999391, z: 1}
+  m_LocalScale: {x: 1, y: 0.989617, z: 1}
   m_Children: []
   m_Father: {fileID: 2920875214803945738}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.254}
+  m_AnchoredPosition: {x: 0, y: 0.21}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &2633144072863305013
@@ -297,10 +297,10 @@ MonoBehaviour:
   m_text: "Welcome to HOLO-CHEM!\n\nIn the world of HOLO-CHEM you are the creator
     of your own world.\n\nYou start the game with the 4 basic elements earth, water,
     stone and air on your shelf. \nTo start the game, grab elements off the shelf
-    and combine them to create new Materials.\n\nTo win the game you must unlock
-    all 4 target elements.\n\nKeep in mind the Shelf has a backside which you can
-    access by interacting with the podest the shelves are placed on.\n\nInteract
-    with this sign to make it disappear. Happy puzzling!  "
+    and combine them to create new Materials.\nTo win the game you must unlock all
+    4 target elements.\nKeep in mind the Shelf has a backside which you can access
+    by interacting with the podest the shelves are placed on.\n\nInteract with this
+    sign to make it disappear. Happy puzzling!  "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -327,7 +327,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 1.2
+  m_fontSize: 1.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
